@@ -30,9 +30,9 @@
     * [Server Side](./medicare/mao-medicare-server-side.md)
     * [Client Side](./medicare/mao-medicare-client-side.md)
 * Mortgage Refinance
-    * [Server Side](./mortgage-refinance\mao-mortgage-refinance-server-side.md)
-    * [Client Side](./mortgage-refinance\mao-mortgage-refinance-client-side.md)
+    * [Server Side](./mortgage-refinance/mao-mortgage-refinance-server-side.md)
+    * [Client Side](./mortgage-refinance/mao-mortgage-refinance-client-side.md)
 * Mortgage Purchase
-    * [Server Side](./mortgage-purchase\mao-purchase-server-side.md)
-    * [Client Side](./mortgage-purchase\mao-purchase-client-side.md)
-    * [Advertiser Reporting API Instructions](./mortgage-purchase\AdvertiserReportingAPIInstructions.md)
+    * [Server Side](./mortgage-purchase/mao-purchase-server-side.md)
+    * [Client Side](./mortgage-purchase/mao-purchase-client-side.md)
+    * [Advertiser Reporting API Instructions](./mortgage-purchase/AdvertiserReportingAPIInstructions.md)
