@@ -56,7 +56,7 @@ Generic Query String Parameters
 | creditscore*     | string  | Excellent, Good, Fair, Poor |
 | loanbalance     | int  |      0-10000000                       |
 | propertyvalue   | int  |           0-10000000                  |
-| CashOut*    | decimal |  Yes, No       |
+| CashOut*    | string |  Yes, No       |
 | MediaChannel*                | string    | Social, Facebook, Native, Email, Display, SEM, SEO, SMS, Push, Affiliate, ChannelA, ChannelB, ChannelC, ChannelD, ChannelE |
 | MilitaryStatus* | string  | Yes, No |
 | EmploymentStatus*    | string |  Employed, Self-Employed, Retired, Not Employed       |
