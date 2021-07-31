@@ -2,62 +2,15 @@
   <a href="https://myadoptimizer.com/">
     <img src="https://myadoptimizer.com/img/logo-blk.svg" alt="Logo" height="80">
   </a>
-  <h3 align="center">MyAdOptimizer.com Integration Doc </h3>
+  <h3 align="center">MyAdOptimizer.com Data Center API Integration Doc </h3>
   <p align="center">
-    Learn how to integrate the <strong>MAO Advertiser and Data Center API</strong> by following these steps
+    Learn how to integrate the <strong>MAO Data Center API</strong> by following these steps
     <br />
     <a href="https://myadoptimizer.com">View Site</a>
     ·
     <a href="https://myadoptimizer.com/contact">Report Bug</a>
   </p>
 </p>
-
-## Advertiser Report instructions
-
-### Endpoint
-<br>
-
-```
-https://api.myadoptimizer.com/api/AdRptAPI?AdToken= {{ Advertiser Token }}
-
-// without brackets ({})
-```
-**You have to request your advertiser token to your PE Admin.*
-
-### Method: POST
-<br>
-
-| Params Names        | Data Type | Allowed Values                       |
-| :------------------ | :-------- | :----------------------------------- |
-| Query String Params |
-| AdToken             | String    | XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX |
-| Post JSON Params    |
-| StartDate           | Date      | yyyy-MM-dd                           |
-| StartDate           | Date      | yyyy-MM-dd                           |
-
-<br>
-
-### Example result
-
-```JSON
-[
-    {
-        "campaignID": 623,
-        "campaignName": "Camapign Name",
-        "date": "2021-07-01T00:00:00",
-        "availableImpressions": 4468,
-        "impressions": 1,
-        "clicks": 1,
-        "cpc": 9.2800,
-        "ctr": 9.2800,
-        "spend": 9.800
-    },
-]
-
-```
-<br>
-
-## Data center instructions
 
 ### Endpoint
 <br>
@@ -80,7 +33,7 @@ https://api.myadoptimizer.com/api/AdRptAPI?UserToken= {{ User token provided }} 
 | :----------- | :-------- | :--------------------------------------------------------------------------------------------------------------------------------- |
 | UserToken\*  | String    | XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX                                                                                               |
 | dcReport\*   | Boolean   | true                                                                                                                               |
-| VerticalID\* | Integer   | - 1 / Refinace <br> - 2 / Purchase <br> - 8 / Auto Insurance <br> - 11 / Education <br> - 13 / Medicare <br> - 14 / Home Insurance |
+| VerticalID\* | Integer   | - 1 / Refinace <br> - 2 / Purchase <br> - 8 / Auto Insurance <br> - 13 / Medicare <br> - 14 / Home Insurance |
 | StartDate\*  | Date      | yyyy-MM-dd                                                                                                                         |
 | EndDate\*    | Date      | yyyy-MM-dd                                                                                                                         |
 
@@ -90,12 +43,12 @@ https://api.myadoptimizer.com/api/AdRptAPI?UserToken= {{ User token provided }} 
 
 <br>
 
-Refinance | Purchase | Auto Insurance | Medicate | Home Insurance 
+Refinance | Purchase | Auto Insurance | Medicate | Home Insurance example result
 
 ```JSON
 [
     {
-        "verticalName": "Refinance",
+        "verticalName": "Vertical Name",
         "landingPage": "Name of landing page",
         "adNetowrk": "Ad Network",
         "campaignID": 685,

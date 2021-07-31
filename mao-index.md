@@ -35,4 +35,12 @@
 * Mortgage Purchase
     * [Server Side](./mortgage-purchase/mao-purchase-server-side.md)
     * [Client Side](./mortgage-purchase/mao-purchase-client-side.md)
-    * [Advertiser Reporting API Instructions](./mortgage-purchase/AdvertiserReportingAPIInstructions.md)
+    
+
+## Reports API's 
+
+* [Advertiser Reporting API Instructions](./mortgage-purchase/AdvertiserReportingAPIInstructions.md)
+
+* [Publisher Reporting API Instructions](./AdRptAPI/datacenter-API.md)
+    
+    * [Education](./AdRptAPI/education-datacenter-API.md)
