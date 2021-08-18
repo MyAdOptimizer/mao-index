@@ -39,6 +39,7 @@ Generic Query String Parameters
 * SourceID: `Optional, tracking variable to be used at your convenience. MAO will track it and can be used for custom reporting `
 * ExtClickID: `Optional, tracking variable to be used at your convenience. MAO will track it and can be used for custom reporting `
 * ExtSearchID: `Optional, tracking variable to be used at your convenience. MAO will track it and can be used for custom reporting `
+* UserAgent: `Optional,  Mozilla/<version> (<system-information>) <platform> (<platform-details>) <extensions>`
 
 
 <h3>Specific Query String Parameters for <strong>Education</strong></h3>

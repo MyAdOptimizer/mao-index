@@ -38,6 +38,7 @@ Generic Query String Parameters
 * CurrentURL: `Optional, the URL where listings will be displayed`
 * SourceID: `Optional, tracking variable`
 * ExtClickID: `Optional, tracking variable`
+* UserAgent: `Optional,  Mozilla/<version> (<system-information>) <platform> (<platform-details>) <extensions>`
 
 
 <h3>Specific Query String Parameters for <strong>Auto Insurance</strong></h3>
