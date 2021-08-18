@@ -37,7 +37,7 @@ https://api.myadoptimizer.com/api/AdRptAPI?UserToken= {{ User token provided }} 
 | StartDate\*  | Date      | yyyy-MM-dd                                                                                                                         |
 | EndDate\*    | Date      | yyyy-MM-dd                                                                                                                         |
 
-\*<b>Case sensitive & obligatory values</b>
+\*<b>Case sensitive & required values</b>
 
 ### Example result
 
