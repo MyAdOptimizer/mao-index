@@ -55,7 +55,7 @@ Generic Query String Parameters
 | Gender*             | string | Male, Female |
 | MilitaryStatus*     | string | Yes, No |
 | PreCondition*       | string | Yes, No |
-| TabaccoUse*         | string | Yes, No |
+| TobaccoUse*         | string | Yes, No |
 | MediaChannel                | string    | Social, Facebook, Native, Email, Display, SEM, SEO, SMS, Push, Affiliate, ChannelA, ChannelB, ChannelC, ChannelD, ChannelE |
 
 *Case Sensitive
