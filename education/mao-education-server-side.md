@@ -60,6 +60,9 @@ Generic Query String Parameters
 | RNDegree*                  | string    | true, false, null |
 | StartDate*                 | string    | LESS_THAN_1_MONTH, 1_TO_3_MONTHS, 3_TO_6_MONTHS, 6_TO_12_MONTHS, OVER_12_MONTHS |
 | USCitizen*                 | string    | true, false, null |
+| Accreditations             | string    | Regionally Accredited, Nationally Accredited, Cacrep Accredited, Mpcac Accredited | 
+| Program Length             | string    | 1 Year Program, 2 Year Program, 18 Month Program, Accelerated, Advanced Standig Option | 
+| Requirements               | string    | No GRE, No GMAT |
 
 *Case Sensitive
 
@@ -96,6 +99,69 @@ Example response:
                 "Convenient: Daytime and evening classes available",
                 "Helpful: Financial Aid available to those who qualify"
             ],
+            "programAdCopy": {
+                "customVar": [
+                    {
+                        "element": "Institution",
+                        "items": [
+                            {
+                                "item": "Public",
+                                "value": true
+                            },
+                            {
+                                "item": "Private",
+                                "value": false
+                            }
+                        ]
+                    },
+                    {
+                        "element": "Profit",
+                        "items": [
+                            {
+                                "item": "Non-Profit",
+                                "value": true
+                            },
+                            {
+                                "item": "For-Profit",
+                                "value": false
+                            },
+                            {
+                                "item": "Not-For-Profit",
+                                "value": false
+                            }
+                        ]
+                    },
+                    {
+                        "element": "Enrollement",
+                        "items": [
+                            {
+                                "item": "> 50K",
+                                "value": true
+                            },
+                            {
+                                "item": "30K - 50K",
+                                "value": false
+                            },
+                            {
+                                "item": "15K - 30K",
+                                "value": false
+                            },
+                            {
+                                "item": "5K - 15K",
+                                "value": false
+                            },
+                            {
+                                "item": "< 5K",
+                                "value": false
+                            }
+                        ]
+                    }
+                ],
+                "location": "Location",
+                "advertiserName": "Advertiser Name",
+                "programName": "Program Name",
+                "programDescription": "Program Description"
+            },
             "imageUrl": "https://cdn.myadoptimizer.com/maojsfiles/images/LogoAdvertiser_000458_52ce13ea-5a04-42cc-8c44-919677e99f04.jpg",
             "destUrl": "https://api.myadoptimizer.com/api/MAOHttpRedirect?src=https%3A%2F%2Finfo.floridacareercollege.com%2Fbusiness-office-administration%2F%3Fadkey%3DIS1CAEXN00%26ctc%3D877-425-6149%26utm_source%3Dcexplorer%26utm_medium%3Dcpc%26utm_campaign060118-fcc-cpc%26utm_content%3DFCC-Business%26CCK%3Dacbb214a-e69e-4394-bea0-3b48f6997cca%7Cfcc_business%26t%3DtestClickID&LandingPageID=43&EventID=acbb214a-e69e-4394-bea0-3b48f6997cca&AdNetworkAPIID=44&cpc=34.50&Brand=Florida Career College&Title=Earn A Business Office Administration Diploma - Start Building A Future You Can Be Proud Of&CB=1VawjEjip8ij5oaSZJZ0mw==&M=4XarSvqYDCayCqZpzLZFSg==&Weight=34.50&BidModifiers=50.00&NetworkAdID=458&SourceID=&LandingPageURL=",
             "impressionUrl": "https://api.myadoptimizer.com/api/MAOSaveResults?LandingPageID=43&AdNetworkAPIID=44&EventID=acbb214a-e69e-4394-bea0-3b48f6997cca&AdCampaignID=458&RequestTypeID=4",
