@@ -186,9 +186,14 @@ Example response:
 }
 ```
 
+<<<<<<< HEAD
 ## Program Ad Copy
 
 Response example for campaigns with **program ad copy** configured:
+=======
+## Program Ad Copy 
+Response example for **program ad copy** configured campaigns:
+>>>>>>> bb6ca8e4f4661a7039780982ca9a77325020d9d4
 
 ```JSON
 "programAdCopy": {
@@ -257,7 +262,11 @@ Response example for campaigns with **program ad copy** configured:
 
 ```
 
+<<<<<<< HEAD
 Response example for campaigns with **program ad copy** not configured:
+=======
+Response example for **program ad copy** not configured campaigns:
+>>>>>>> bb6ca8e4f4661a7039780982ca9a77325020d9d4
 ```JSON
  "programAdCopy": {
                 "customVar": [
