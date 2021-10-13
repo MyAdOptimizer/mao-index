@@ -60,9 +60,9 @@ Generic Query String Parameters
 | RNDegree*                  | string    | true, false, null |
 | StartDate*                 | string    | LESS_THAN_1_MONTH, 1_TO_3_MONTHS, 3_TO_6_MONTHS, 6_TO_12_MONTHS, OVER_12_MONTHS |
 | USCitizen*                 | string    | true, false, null |
-| Accreditations             | string    | Regionally Accredited, Nationally Accredited, Cacrep Accredited, Mpcac Accredited | 
-| Program Length             | string    | 1 Year Program, 2 Year Program, 18 Month Program, Accelerated, Advanced Standig Option | 
-| Requirements               | string    | No GRE, No GMAT |
+| Accreditations*             | string    | Regionally Accredited, Nationally Accredited, Cacrep Accredited, Mpcac Accredited | 
+| Program Length*             | string    | 1 Year Program, 2 Year Program, 18 Month Program, Accelerated, Advanced Standig Option | 
+| Requirements*              | string    | No GRE, No GMAT |
 
 *Case Sensitive
 
@@ -185,6 +185,93 @@ Example response:
     ]
 }
 ```
+
+## Program Ad Copy 
+Response example for **program ad copy** configured campaigns:
+
+```JSON
+"programAdCopy": {
+                "customVar": [
+                    {
+                        "element": "Institution",
+                        "items": [
+                            {
+                                "item": "Public",
+                                "value": true
+                            },
+                            {
+                                "item": "Private",
+                                "value": false
+                            }
+                        ]
+                    },
+                    {
+                        "element": "Profit",
+                        "items": [
+                            {
+                                "item": "Non-Profit",
+                                "value": true
+                            },
+                            {
+                                "item": "For-Profit",
+                                "value": false
+                            },
+                            {
+                                "item": "Not-For-Profit",
+                                "value": false
+                            }
+                        ]
+                    },
+                    {
+                        "element": "Enrollement",
+                        "items": [
+                            {
+                                "item": "> 50K",
+                                "value": true
+                            },
+                            {
+                                "item": "30K - 50K",
+                                "value": false
+                            },
+                            {
+                                "item": "15K - 30K",
+                                "value": false
+                            },
+                            {
+                                "item": "5K - 15K",
+                                "value": false
+                            },
+                            {
+                                "item": "< 5K",
+                                "value": false
+                            }
+                        ]
+                    }
+                ],
+                "location": "Location",
+                "advertiserName": "Advertiser Name",
+                "programName": "Program Name",
+                "programDescription": "Program Description"
+            },
+
+```
+
+Response example for **program ad copy** not configured campaigns:
+```JSON
+ "programAdCopy": {
+                "customVar": [
+                    null,
+                    null,
+                    null
+                ],
+                "location": "",
+                "advertiserName": "",
+                "programName": "",
+                "programDescription": ""
+            },
+```
+
+
 
 ## External Ad Networks Setup OPTIONAL
 
