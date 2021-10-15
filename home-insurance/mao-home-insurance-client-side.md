@@ -67,8 +67,16 @@ Generic Query String Parameters
 | SqFootage                 | Integer | Send the Sq Footage of the house |
 | YearBuilt                 | Integer | Send the year house was built |
 | MediaChannel                | string    | Social, Facebook, Native, Email, Display, SEM, SEO, SMS, Push, Affiliate, ChannelA, ChannelB, ChannelC, ChannelD, ChannelE |
+| FName ±                    | string    |  |
+| LName ±                    | string    |  |
+| Email ±                    | string    |  |
+| Phone ±                    | string    |  |
+| Address ±                  | string    |  |
+| City ±                     | string    |  |
 
 *Case Sensitive
+
+±PII Fields
 
 ## LocalStorage Integration
 

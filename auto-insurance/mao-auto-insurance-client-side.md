@@ -71,6 +71,8 @@ Generic Query String Parameters
 | LName ±                   | string    |  |
 | Email ±                    | string    |  |
 | Phone ±                    | string    |  |
+| Address ±                  | string    |  |
+| City ±                     | string    |  |
 | MediaChannel                | string    | Social, Facebook, Native, Email, Display, SEM, SEO, SMS, Push, Affiliate, ChannelA, ChannelB, ChannelC, ChannelD, ChannelE |
 
 *Case Sensitive

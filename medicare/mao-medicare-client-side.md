@@ -57,8 +57,16 @@ Generic Query String Parameters
 | PreCondition*       | string | Yes, No |
 | TobaccoUse*         | string | Yes, No |
 | MediaChannel                | string    | Social, Facebook, Native, Email, Display, SEM, SEO, SMS, Push, Affiliate, ChannelA, ChannelB, ChannelC, ChannelD, ChannelE |
+| FName ±                    | string    |  |
+| LName ±                    | string    |  |
+| Email ±                    | string    |  |
+| Phone ±                    | string    |  |
+| Address ±                  | string    |  |
+| City ±                     | string    |  |
 
 *Case Sensitive
+
+±PII Fields
 
 ## LocalStorage Integration
 

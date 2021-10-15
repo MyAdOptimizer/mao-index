@@ -60,8 +60,16 @@ Generic Query String Parameters
 | MilitaryStatus* | string  | Yes, No |
 | EmploymentStatus*    | string |  Employed, Self-Employed, Retired, Not Employed       |
 | firsttimebuyer*     | string  | Yes, No |
+| FName ±                    | string    |  |
+| LName ±                    | string    |  |
+| Email ±                    | string    |  |
+| Phone ±                    | string    |  |
+| Address ±                  | string    |  |
+| City ±                     | string    |  |
 
 *Case Sensitive
+
+±PII Fields
 
 ## LocalStorage Integration
 

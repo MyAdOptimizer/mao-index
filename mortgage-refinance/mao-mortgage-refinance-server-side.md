@@ -56,8 +56,16 @@ Generic Query String Parameters
 | EmploymentStatus*    | string |  Employed, Self-Employed, Retired, Not Employed       |
 | PropertyUse*     | string  | Primary Home, Second Home, Rental Property |
 | PropertyType*     | string  | Single Family, Multi-Unit, Condo/Townhome, Mobile, Other   |
+| FName ±                    | string    |  |
+| LName ±                    | string    |  |
+| Email ±                    | string    |  |
+| Phone ±                    | string    |  |
+| Address ±                  | string    |  |
+| City ±                     | string    |  |
 
 *Case Sensitive
+
+±PII Fields
 
 ### API Response
 

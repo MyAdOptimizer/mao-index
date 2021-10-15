@@ -65,9 +65,16 @@ Generic Query String Parameters
 | Accreditations*             | string    | Regionally Accredited, Nationally Accredited, Cacrep Accredited, Mpcac Accredited | 
 | Program Length*             | string    | 1 Year Program, 2 Year Program, 18 Month Program, Accelerated, Advanced Standig Option | 
 | Requirements*              | string    | No GRE, No GMAT |
-
+| FName ±                    | string    |  |
+| LName ±                   | string    |  |
+| Email ±                    | string    |  |
+| Phone ±                    | string    |  |
+| Address ±                  | string    |  |
+| City ±                     | string    |  |
 
 *Case Sensitive
+
+±PII Fields
 
 ## LocalStorage Integration
 
