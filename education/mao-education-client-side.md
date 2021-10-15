@@ -56,7 +56,7 @@ Generic Query String Parameters
 | DegreeLevel*               | string    | CERTIFICATE, ASSOCIATES, BACHELORS, MASTERS, DOCTORATE |
 | HighSchoolGradYear        | Integer   | 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002, 2001, 1990 |
 | HighestEducationLevel*     | string    | STILL_IN_HIGH_SCHOOL, NO_HIGH_SCHOOL_OR_GED, HIGH_SCHOOL, SOME_COLLEGE, ASSOCIATES_DEGREE, BACHELORS_DEGREE, MASTERS_DEGREE, DOCTORAL_DEGREE, GED |
-| LearningPreference*        | string    | CAMPUS, ONLINE, ANY |
+| LearningPreference*        | string    | CAMPUS, ONLINE, HYBRID, ANY |
 | LikelihoodToEnroll*        | string    | NOT_LIKELY, SOMEWHAT_LIKELY, VERY_LIKELY |
 | MilitaryStatus*            | string    | true, false, null |
 | RNDegree*                  | string    | true, false, null |
