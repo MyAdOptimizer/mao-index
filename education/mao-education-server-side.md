@@ -49,8 +49,9 @@ Generic Query String Parameters
 | ZipCode                   | string    | 5 char US zip code               |
 | State*                     | string    | 2 char US state code (Uppercase)    |
 | AdPlacement               | string    | ICF, No Matches, After Matches, API, High School, Ad Unit, Organic Exit Pop, Paid Search Exit Pop | 
-| AreaOfStudy*               | string    | Arts / Design / Fashion, Business, Communication & Multimedia, Computers & IT, Cosmetology & Beauty, Criminal Justice & Law Enforcement, Culinary Arts & Hospitality, Education & Teaching, General Studies / Undecided, Health & Medical / Nursing, Legal Professions, Massage Therapy & Healing Arts, Political Science, Psychology & Social Work, Religious Studies,Trades & Careers |
-| Concentration*             | string    | Human Services/Social Work, Medical Assistant, Medical Insurance Biller/Coder, Medical Office Assistant, Medical Transcriptionist, Nursing - Licensed Practical/Vocational Nurse Training (Certificate), Nursing - MSN, Nursing - Registered Nurse (AAS), Nursing - RN to BSN, Nursing Assistant (CNA), Personal Training / Nutrition, Pharmacy Technician/Assistant, Phlebotomy / Clinical Medical Lab. Technician, Physical Therapy & Rehabilitation, Psychology, Surgical Technologist, Ultrasound Technician, Veterinary Medicine, X-Ray/Radiologic Technician, Court Reporting, Legal Administrative Assistant, Legal Assistant/Paralegal, Legal Studies, Healing Arts & Alternative Medicine, Massage Therapy, Political Science, Business & Organizational Psychology, Clinical Psychology, Counseling Psychology, Forensic Psychology/Crime Scene Investigator, General Psychology, Human Services/Social Work, Sport Psychology, Christian Studies, Ministry, Religious Studies, Theology, Aircraft Maintenance, Auto Mechanic, Autobody Repair, Aviation, CAD Drafting and Design, Computer Installation & Repair, Computer Systems Technology, Construction Management, Electrician, Engineering Technology/Technicians, HVAC, Laboratory Technician, Plumbing Technology/Plumber, Telecommunications Technology, Truck Driving, Welding Technology/Welder, Design & Visual Communications, Fashion/Apparel Design, Film and Theater, Graphic Design, Industrial Design, Interior Design, Photography, Visual Arts, Accounting & Related Services, Administrative & Secretarial Services, Business Communications, E-Commerce/Business, Economics, Entrepreneurship & Small Business, Fashion and Apparel, Finance, General Business, Green & Sustainable Management, Hospitality & Restaurants, Human Resources, Information Systems Management, International Business, Management, Marketing, Property Management / Real Estate, Public & Non-Profit Administration, Retail & Sales, Supply Chain Management, Advertising, Animation & Video Graphics, Commercial & Advertising Art, Computer Media Applications, Design & Visual Communications, Film/Video & Cinematography, Graphic Design, Intermedia/Multimedia, Photography, Recording Arts Technology, Web Design, Computer Science, Computer Support Services, Computer Systems Security, Networking, Software Development, Systems Administration, Telecommunications, Web Design and Internet, Barbering/Barber, Cosmetology/Cosmetologist, Esthetician & Skin Care, Hair Styling & Hair Design, Make-Up Artist/Specialist, Manicurist/Nail Specialist, Correctional Officer (Prison Officer), Criminal Justice & Law Enforcement/Police, Fire Science, Forensics/Crime Scene Investigation, Homeland Security, Security Services, Baking and Pastry Arts, Culinary Arts, Food Services, Hospitality Management, Restaurant & Food Services, Tourism & Travel Management, Administration & Leadership, Curriculum and Instruction, Early Childhood Education, Education and Teaching, General Education, Secondary Education, General Studies, Liberal Arts, Undecided, Alternative Medicine/Healing Arts, Dental Assisting, Dental Hygienist, Diagnostic & Treatment Technician, Gerontology, Health Information Technology/Records, Healthcare Administration |
+| AreaOfStudy*               | string    | Arts / Design / Fashion, Business, Communication & Multimedia, Computers & IT, Cosmetology & Beauty, Criminal Justice & Law Enforcement, Culinary Arts & Hospitality, Education & Teaching, General Studies / Undecided, Health & Medical / Nursing, Legal Professions, Massage Therapy & Healing Arts, Political Science, Psychology & Social Work, Religious Studies,Trades & Careers, Counseling, ANY |
+| Concentration*             | string    | Human Services/Social Work, Medical Assistant, Medical Insurance Biller/Coder, Medical Office Assistant, Medical Transcriptionist, Nursing - Licensed Practical/Vocational Nurse Training (Certificate), Nursing - MSN, Nursing - Registered Nurse (AAS), Nursing - RN to BSN, Nursing Assistant (CNA), Personal Training / Nutrition, Pharmacy Technician/Assistant, Phlebotomy / Clinical Medical Lab. Technician, Physical Therapy & Rehabilitation, Psychology, Surgical Technologist, Ultrasound Technician, Veterinary Medicine, X-Ray/Radiologic Technician, Court Reporting, Legal Administrative Assistant, Legal Assistant/Paralegal, Legal Studies, Healing Arts & Alternative Medicine, Massage Therapy, Political Science, Business & Organizational Psychology, Clinical Psychology, Counseling Psychology, Forensic Psychology/Crime Scene Investigator, General Psychology, Human Services/Social Work, Sport Psychology, Christian Studies, Ministry, Religious Studies, Theology, Aircraft Maintenance, Auto Mechanic, Autobody Repair, Aviation, CAD Drafting and Design, Computer Installation & Repair, Computer Systems Technology, Construction Management, Electrician, Engineering Technology/Technicians, HVAC, Laboratory Technician, Plumbing Technology/Plumber, Telecommunications Technology, Truck Driving, Welding Technology/Welder, Design & Visual Communications, Fashion/Apparel Design, Film and Theater, Graphic Design, Industrial Design, Interior Design, Photography, Visual Arts, Accounting & Related Services, Administrative & Secretarial Services, Business Communications, E-Commerce/Business, Economics, Entrepreneurship & Small Business, Fashion and Apparel, Finance, General Business, Green & Sustainable Management, Hospitality & Restaurants, Human Resources, Information Systems Management, International Business, Management, Marketing, Property Management / Real Estate, Public & Non-Profit Administration, Retail & Sales, Supply Chain Management, Advertising, Animation & Video Graphics, Commercial & Advertising Art, Computer Media Applications, Design & Visual Communications, Film/Video & Cinematography, Graphic Design, Intermedia/Multimedia, Photography, Recording Arts Technology, Web Design, Computer Science, Computer Support Services, Computer Systems Security, Networking, Software Development, Systems Administration, Telecommunications, Web Design and Internet, Barbering/Barber, Cosmetology/Cosmetologist, Esthetician & Skin Care, Hair Styling & Hair Design, Make-Up Artist/Specialist, Manicurist/Nail Specialist, Correctional Officer (Prison Officer), Criminal Justice & Law Enforcement/Police, Fire Science, Forensics/Crime Scene Investigation, Homeland Security, Security Services, Baking and Pastry Arts, Culinary Arts, Food Services, Hospitality Management, Restaurant & Food Services, Tourism & Travel Management, Administration & Leadership, Curriculum and Instruction, Early Childhood Education, Education and Teaching, General Education, Secondary Education, General Studies, Liberal Arts, Undecided, Alternative Medicine/Healing Arts, Dental Assisting, Dental Hygienist, Diagnostic & Treatment Technician, Gerontology, Health Information Technology/Records, Healthcare Administration, Business Administration,
+Business Intelligence, Organizational Leadership, Project Management, Taxation, Analytics & Data Science, Engineering, Information & Library Sciences, Information Technology/Systems, Addictions & Recovery, Counseling,Family Counseling, Mental Health Counseling, School Counseling, Criminal Justice, Criminology, Educational Technology, Elementary Education, Music Education, Reading & Literacy, Special Education, Teaching, Emergency Management, Nurse Education, Nurse Practitioner (RN Required), Public Health, Speech Pathology/Therapy, Behavioral Psychology, Child Psychology, Educational Psychology, ANY|
 | DegreeLevel*               | string    | CERTIFICATE, ASSOCIATES, BACHELORS, MASTERS, DOCTORATE |
 | HighSchoolGradYear        | Integer   | 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002, 2001, 1990 |
 | HighestEducationLevel*     | string    | STILL_IN_HIGH_SCHOOL, NO_HIGH_SCHOOL_OR_GED, HIGH_SCHOOL, SOME_COLLEGE, ASSOCIATES_DEGREE, BACHELORS_DEGREE, MASTERS_DEGREE, DOCTORAL_DEGREE, GED |
@@ -115,10 +116,6 @@ Example response:
                             {
                                 "item": "Public",
                                 "value": true
-                            },
-                            {
-                                "item": "Private",
-                                "value": false
                             }
                         ]
                     },
@@ -128,14 +125,6 @@ Example response:
                             {
                                 "item": "Non-Profit",
                                 "value": true
-                            },
-                            {
-                                "item": "For-Profit",
-                                "value": false
-                            },
-                            {
-                                "item": "Not-For-Profit",
-                                "value": false
                             }
                         ]
                     },
@@ -145,22 +134,6 @@ Example response:
                             {
                                 "item": "> 50K",
                                 "value": true
-                            },
-                            {
-                                "item": "30K - 50K",
-                                "value": false
-                            },
-                            {
-                                "item": "15K - 30K",
-                                "value": false
-                            },
-                            {
-                                "item": "5K - 15K",
-                                "value": false
-                            },
-                            {
-                                "item": "< 5K",
-                                "value": false
                             }
                         ]
                     }
@@ -207,10 +180,6 @@ Response example for campaigns with **program ad copy** configured:
                             {
                                 "item": "Public",
                                 "value": true
-                            },
-                            {
-                                "item": "Private",
-                                "value": false
                             }
                         ]
                     },
@@ -220,16 +189,7 @@ Response example for campaigns with **program ad copy** configured:
                             {
                                 "item": "Non-Profit",
                                 "value": true
-                            },
-                            {
-                                "item": "For-Profit",
-                                "value": false
-                            },
-                            {
-                                "item": "Not-For-Profit",
-                                "value": false
                             }
-                        ]
                     },
                     {
                         "element": "Enrollement",
@@ -237,22 +197,6 @@ Response example for campaigns with **program ad copy** configured:
                             {
                                 "item": "> 50K",
                                 "value": true
-                            },
-                            {
-                                "item": "30K - 50K",
-                                "value": false
-                            },
-                            {
-                                "item": "15K - 30K",
-                                "value": false
-                            },
-                            {
-                                "item": "5K - 15K",
-                                "value": false
-                            },
-                            {
-                                "item": "< 5K",
-                                "value": false
                             }
                         ]
                     }
