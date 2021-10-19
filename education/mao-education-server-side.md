@@ -189,6 +189,7 @@ Response example for campaigns with **program ad copy** configured:
                                 "item": "Non-Profit",
                                 "value": true
                             }
+                         ]
                     },
                     {
                         "element": "Enrollement",
