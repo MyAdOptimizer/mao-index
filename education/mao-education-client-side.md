@@ -64,7 +64,7 @@ Generic Query String Parameters
 | USCitizen *                | string    | true, false, null |
 | Accreditations*             | string    | Regionally Accredited, Nationally Accredited, Cacrep Accredited, Mpcac Accredited | 
 | Program Length*             | string    | 1 Year Program, 2 Year Program, 18 Month Program, Accelerated, Advanced Standig Option | 
-| Requirements*              | string    | No GRE, No GMAT |
+| Program Requirements*              | string    | No GRE, No GMAT |
 | FName ±                    | string    |  |
 | LName ±                   | string    |  |
 | Email ±                    | string    |  |
