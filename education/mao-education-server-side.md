@@ -342,7 +342,7 @@ Example response:
                         ]
                     },
                     {
-                        "element": "Enrollement",
+                        "element": "Enrollment",
                         "items": [
                             {
                                 "item": "> 50K",
@@ -406,7 +406,7 @@ Response example for campaigns with **program ad copy** configured:
                          ]
                     },
                     {
-                        "element": "Enrollement",
+                        "element": "Enrollment",
                         "items": [
                             {
                                 "item": "> 50K",
