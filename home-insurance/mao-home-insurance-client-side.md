@@ -115,7 +115,7 @@ Once you have set up all parameters values, you need to invoke the function **in
 @param{string} TargetHtmlControlID
 @param{number} GlobalRenderMode (1- Live , 2- Test)
 */
-initMAO('target', 1);
+InitMAO('target', 1);
 ```
 
 ## External Ad Networks Setup OPTIONAL
