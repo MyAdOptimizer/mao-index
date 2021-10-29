@@ -248,7 +248,7 @@ Generic Query String Parameters
         <td colspan=2>1 Year Program, 2 Year Program, 18 Month Program, Accelerated, Advanced Standig Option</td>
     </tr>
     <tr>
-        <td>Requirements*</td>
+        <td>ProgramRequirements*</td>
         <td>string</td>
         <td colspan=2>No GRE, No GMAT</td>
     </tr>
@@ -342,7 +342,7 @@ Example response:
                         ]
                     },
                     {
-                        "element": "Enrollement",
+                        "element": "Enrollment",
                         "items": [
                             {
                                 "item": "> 50K",
@@ -406,7 +406,7 @@ Response example for campaigns with **program ad copy** configured:
                          ]
                     },
                     {
-                        "element": "Enrollement",
+                        "element": "Enrollment",
                         "items": [
                             {
                                 "item": "> 50K",
