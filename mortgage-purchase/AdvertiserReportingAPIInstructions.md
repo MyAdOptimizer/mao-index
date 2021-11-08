@@ -33,7 +33,7 @@ https://api.myadoptimizer.com/api/AdRptAPI?AdToken= {{ Advertiser Token }}
 | AdToken             | String    | XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX |
 | Post JSON Params    |
 | StartDate           | Date      | yyyy-MM-dd                           |
-| StartDate           | Date      | yyyy-MM-dd                           |
+| EndDate           | Date      | yyyy-MM-dd                           |
 
 <br>
 
