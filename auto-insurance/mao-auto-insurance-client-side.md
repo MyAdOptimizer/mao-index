@@ -81,7 +81,7 @@ Generic Query String Parameters
 
 ## LocalStorage Integration
 
-If you want to use LocalStorage instead Querystring. Set up the parameters values stated above. MyAdOptimizer provide you a method called **setMAOLocalStorageValue** for do it.
+In order to use LocalStorage instead Querystring, set up the parameters names & values stated above by adding them using a MAO JS function called **setMAOLocalStorageValue**. This method expects a key/value pair.
 
 The function setMAOLocalStorageValue need two paramets
 
