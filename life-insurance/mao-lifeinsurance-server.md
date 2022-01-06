@@ -55,7 +55,7 @@ Generic Query String Parameters
 | MilitaryStatus*     | string | Yes, No |
 | Married*                   | string | Married, Single |
 | PreCondition*       | string | Yes, No |
-| TabaccoUse*         | string | Yes, No |
+| TobaccoUse*         | string | Yes, No |
 | Age                | integer | 1-99 |
 | MediaChannel                | string    | Social, Facebook, Native, Email, Display, SEM, SEO, SMS, Push, Affiliate, ChannelA, ChannelB, ChannelC, ChannelD, ChannelE |
 | FName ±                    | string    |  |
