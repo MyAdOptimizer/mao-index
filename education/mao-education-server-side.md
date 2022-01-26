@@ -285,6 +285,7 @@ Generic Query String Parameters
 </table>
 
 *Case Sensitive
+
 ** Program Ad Copy Allowed Values
 
 ±PII Fields
