@@ -89,7 +89,7 @@ Generic Query String Parameters
     <tr>
         <td>AdPlacement*</td>
         <td>string</td>
-        <td colspan=2 >ICF, No Matches, After Matches, API, High School, Ad Unit, Organic Exit Pop, Paid Search Exit Pop, Program Listings - Widget*, Program  Listings - Static*</td>
+        <td colspan=2 >ICF, No Matches, After Matches, API, High School, Ad Unit, Organic Exit Pop, Paid Search Exit Pop, Program Listings - Widget**, Program  Listings - Static**</td>
     </tr>
     <tr>
         <td>AreaOfStudy* </td>
@@ -285,6 +285,7 @@ Generic Query String Parameters
 </table>
 
 *Case Sensitive
+** Program Ad Copy Allowed Values
 
 ±PII Fields
 
