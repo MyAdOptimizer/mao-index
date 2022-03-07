@@ -120,7 +120,7 @@ Example response:
 
 <h3>Additional Optional Parameters for <strong>Transparent.ly</strong></h3>
 
-| Query String Params Names | Data Type | Allowed Values |
+| Param Name                | Data Type | Allowed Values |
 | :------------------------ | :-------: | :------------- |
 | currentinterestrate         | decimal | 0 - 99.99 |
 | timeframetobuy              | string  | 30 days (Offer Pending or Signed Purchase Agreement), 2-3 Months, 3-6 Months, Researching Options |
