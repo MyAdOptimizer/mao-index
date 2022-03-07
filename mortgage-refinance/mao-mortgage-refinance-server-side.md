@@ -118,13 +118,7 @@ Example response:
 }
 ```
 
-<h3>Additional Optional Parameters for <strong>Transparent.ly</strong></h3>
 
-| Param Name                | Data Type | Allowed Values |
-| :------------------------ | :-------: | :------------- |
-| CurrentInterestRate         | decimal | 0 - 99.99 |
-| TimeFrameToBuy              | string  | 30 days (Offer Pending or Signed Purchase Agreement), 2-3 Months, 3-6 Months, Researching Options |
-| CurrentMortgageProvider     | string  | AAG/American Advisors Group, AmeriHome Mortgage, AmeriSave Mortgage, Bank of America, Bank of England, Truist Financial, Better Mortgage, Caliber Home Loans, Carrington Mortgage, Cenlar, Chase, Citi, Citizens Bank, CrossCountry Mortgage, Ditech, Fairway Independent Mortgage, Fifth Third Bank, Finance of America Mortgage, First Guaranty Mortgage Corp, Freedom Mortgage Corp, Guaranteed Rate, Homepoint Financial, Huntington National Bank, LoanCare, loanDepot, Merrill Lynch, Morgan Stanley, Mr. Cooper/Nationstar, Navy Federal Credit Union, New American Funding, New Day USA, NewRez, Ocwen, PenFed Credit Union, PennyMac Loan Services, PHH Mortgage, PNC Mortgage, Quicken Loans Inc, Rocket Mortgage, RoundPoint Mortgage, Shellpoint, Specialized Loan Servicing, Sun West Mortgage, SunTrust, United Share Financial Services, United Wholesale Mortgage, US Bank Home Mortgage, USAA Federal Savings Bank, Veterans United, Wells Fargo & Company, Other, I Don't Know, No Lender (Loan Paid Off) |
 
 ## External Ad Networks Setup OPTIONAL
 
@@ -145,3 +139,12 @@ Clicks.NET
 
 Quinstreet
 * `Src`
+
+
+<h3>Additional Optional Parameters for <strong>Transparent.ly</strong></h3>
+
+| Param Name                | Data Type | Allowed Values |
+| :------------------------ | :-------: | :------------- |
+| CurrentInterestRate         | decimal | 0 - 99.99 |
+| TimeFrameToBuy              | string  | 30 days (Offer Pending or Signed Purchase Agreement), 2-3 Months, 3-6 Months, Researching Options |
+| CurrentMortgageProvider     | string  | AAG/American Advisors Group, AmeriHome Mortgage, AmeriSave Mortgage, Bank of America, Bank of England, Truist Financial, Better Mortgage, Caliber Home Loans, Carrington Mortgage, Cenlar, Chase, Citi, Citizens Bank, CrossCountry Mortgage, Ditech, Fairway Independent Mortgage, Fifth Third Bank, Finance of America Mortgage, First Guaranty Mortgage Corp, Freedom Mortgage Corp, Guaranteed Rate, Homepoint Financial, Huntington National Bank, LoanCare, loanDepot, Merrill Lynch, Morgan Stanley, Mr. Cooper/Nationstar, Navy Federal Credit Union, New American Funding, New Day USA, NewRez, Ocwen, PenFed Credit Union, PennyMac Loan Services, PHH Mortgage, PNC Mortgage, Quicken Loans Inc, Rocket Mortgage, RoundPoint Mortgage, Shellpoint, Specialized Loan Servicing, Sun West Mortgage, SunTrust, United Share Financial Services, United Wholesale Mortgage, US Bank Home Mortgage, USAA Federal Savings Bank, Veterans United, Wells Fargo & Company, Other, I Don't Know, No Lender (Loan Paid Off) |
