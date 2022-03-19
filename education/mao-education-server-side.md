@@ -421,7 +421,8 @@ Response example for campaigns with **program ad copy** configured:
                 "location": "Location",
                 "advertiserName": "Advertiser Name",
                 "programName": "Program Name",
-                "programDescription": "Program Description"
+                "programDescription": "Program Description",
+		"imageUrl":"https://cdn.myadoptimizer.com/maojsfiles/images/ProgramAdCopyLogo_000259_d973ac9d-a78f-4829-8ba0-8a9b3bd097f2.png"
             },
 
 ```
