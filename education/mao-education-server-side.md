@@ -347,7 +347,7 @@ Example response:
                         "element": "Enrollment",
                         "items": [
                             {
-                                "item": "> 50K",
+                                "item": "> 50K Students",
                                 "value": true
                             }
                         ]
@@ -412,7 +412,7 @@ Response example for campaigns with **program ad copy** configured:
                         "element": "Enrollment",
                         "items": [
                             {
-                                "item": "> 50K",
+                                "item": "> 50K Students",
                                 "value": true
                             }
                         ]
