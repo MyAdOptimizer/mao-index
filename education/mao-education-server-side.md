@@ -315,6 +315,7 @@ Example response:
             "extClickID": "testClickID",
             "advertiserId": "409",
             "displayName": "Earn A Business Office Administration Diploma - Start Building A Future You Can Be Proud Of",
+	    "adCopyVersion": 1,
             "headline": "Learn valuable technical skills like - Microsoft Word&#174;, Microsoft Excel&#174;, Microsoft PowerPoint&#174; and more!&lt;br /&gt;Prepare for career opportunities like: Administrative Assistant, Secretary, Customer Service Rep, and more!&lt;br /&gt;Fast: Prepare for a career in as few as 10 months&lt;br /&gt;Convenient: Daytime and evening classes available",
             "blurbs": [
                 "Learn valuable technical skills like - Microsoft Word®, Microsoft Excel®, Microsoft PowerPoint® and more!",
@@ -348,6 +349,67 @@ Example response:
                         "items": [
                             {
                                 "item": "> 50K Students",
+                                "value": true
+                            }
+                        ]
+                    }
+                ],
+		"constraints": [
+                    {
+                        "element": "Accreditations",
+                        "items": [
+                            {
+                                "item": "Regionally Accredited",
+                                "value": true
+                            },
+                            {
+                                "item": "Nationally Accredited",
+                                "value": true
+                            },
+                            {
+                                "item": "CACREP Accredited",
+                                "value": true
+                            },
+                            {
+                                "item": "MPCAC Accredited",
+                                "value": true
+                            }
+                        ]
+                    },
+                    {
+                        "element": "Program Requirements",
+                        "items": [
+                            {
+                                "item": "NO GRE",
+                                "value": true
+                            },
+                            {
+                                "item": "NO GMAT",
+                                "value": true
+                            }
+                        ]
+                    },
+                    {
+                        "element": "Program Length",
+                        "items": [
+                            {
+                                "item": "1 Year Program",
+                                "value": true
+                            },
+                            {
+                                "item": "2 Year Program",
+                                "value": true
+                            },
+                            {
+                                "item": "18 Month Program",
+                                "value": true
+                            },
+                            {
+                                "item": "Accelerated",
+                                "value": true
+                            },
+                            {
+                                "item": "Advanced Standing Option",
                                 "value": true
                             }
                         ]
@@ -406,7 +468,7 @@ Response example for campaigns with **program ad copy** configured:
                                 "item": "Non-Profit",
                                 "value": true
                             }
-                         ]
+                        ]
                     },
                     {
                         "element": "Enrollment",
@@ -418,13 +480,73 @@ Response example for campaigns with **program ad copy** configured:
                         ]
                     }
                 ],
+                "constraints": [
+                    {
+                        "element": "Accreditations",
+                        "items": [
+                            {
+                                "item": "Regionally Accredited",
+                                "value": true
+                            },
+                            {
+                                "item": "Nationally Accredited",
+                                "value": true
+                            },
+                            {
+                                "item": "CACREP Accredited",
+                                "value": true
+                            },
+                            {
+                                "item": "MPCAC Accredited",
+                                "value": true
+                            }
+                        ]
+                    },
+                    {
+                        "element": "Program Requirements",
+                        "items": [
+                            {
+                                "item": "NO GRE",
+                                "value": true
+                            },
+                            {
+                                "item": "NO GMAT",
+                                "value": true
+                            }
+                        ]
+                    },
+                    {
+                        "element": "Program Length",
+                        "items": [
+                            {
+                                "item": "1 Year Program",
+                                "value": true
+                            },
+                            {
+                                "item": "2 Year Program",
+                                "value": true
+                            },
+                            {
+                                "item": "18 Month Program",
+                                "value": true
+                            },
+                            {
+                                "item": "Accelerated",
+                                "value": true
+                            },
+                            {
+                                "item": "Advanced Standing Option",
+                                "value": true
+                            }
+                        ]
+                    }
+                ],
                 "location": "Location",
                 "advertiserName": "Advertiser Name",
                 "programName": "Program Name",
                 "programDescription": "Program Description",
-		"imageUrl":"https://cdn.myadoptimizer.com/maojsfiles/images/ProgramAdCopyLogo_000259_d973ac9d-a78f-4829-8ba0-8a9b3bd097f2.png"
-            },
-
+                "imageUrl": "https://cdn.myadoptimizer.com/maojsfiles/images/ProgramAdCopyLogo_000259_d973ac9d-a78f-4829-8ba0-8a9b3bd097f2.png"
+            }
 ```
 
 Response example for campaigns with **program ad copy** not configured:
@@ -435,10 +557,12 @@ Response example for campaigns with **program ad copy** not configured:
                     null,
                     null
                 ],
+		"constraints": [],
                 "location": "",
                 "advertiserName": "",
                 "programName": "",
-                "programDescription": ""
+                "programDescription": "",
+		"imageUrl": ""
             },
 ```
 
