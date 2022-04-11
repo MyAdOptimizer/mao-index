@@ -250,7 +250,7 @@ Generic Query String Parameters
     <tr>
         <td>ProgramRequirements*</td>
         <td>string</td>
-        <td colspan=2>No GRE, No GMAT</td>
+        <td colspan=2>NO GRE, NO GMAT</td>
     </tr>
     <tr>
         <td>FName ±</td>
@@ -301,85 +301,150 @@ Generic Query String Parameters
 * bidModifierLog: `The log that shows  how the baseRevenue bid was modified.`
 
 Example response:
- ```javascript
+
+```JSON
 {
-    "searchResultId": "acbb214a-e69e-4394-bea0-3b48f6997cca",
-    "duration": 446,
-    "items": [
-        {
-            "itemId": "458",
-            "brandName": "Florida Career College",
-            "networkSort": 1,
-            "requestDuration": 306,
-            "sourceID": null,
-            "extClickID": "testClickID",
-            "advertiserId": "409",
-            "displayName": "Earn A Business Office Administration Diploma - Start Building A Future You Can Be Proud Of",
-            "headline": "Learn valuable technical skills like - Microsoft Word&#174;, Microsoft Excel&#174;, Microsoft PowerPoint&#174; and more!&lt;br /&gt;Prepare for career opportunities like: Administrative Assistant, Secretary, Customer Service Rep, and more!&lt;br /&gt;Fast: Prepare for a career in as few as 10 months&lt;br /&gt;Convenient: Daytime and evening classes available",
-            "blurbs": [
-                "Learn valuable technical skills like - Microsoft Word®, Microsoft Excel®, Microsoft PowerPoint® and more!",
-                "Prepare for career opportunities like: Administrative Assistant, Secretary, Customer Service Rep, and more!",
-                "Fast: Prepare for a career in as few as 10 months",
-                "Convenient: Daytime and evening classes available",
-                "Helpful: Financial Aid available to those who qualify"
-            ],
-            "programAdCopy": {
-                "customVar": [
-                    {
-                        "element": "Institution",
-                        "items": [
-                            {
-                                "item": "Public",
-                                "value": true
-                            }
-                        ]
-                    },
-                    {
-                        "element": "Profit",
-                        "items": [
-                            {
-                                "item": "Non-Profit",
-                                "value": true
-                            }
-                        ]
-                    },
-                    {
-                        "element": "Enrollment",
-                        "items": [
-                            {
-                                "item": "> 50K",
-                                "value": true
-                            }
-                        ]
-                    }
-                ],
-                "location": "Location",
-                "advertiserName": "Advertiser Name",
-                "programName": "Program Name",
-                "programDescription": "Program Description"
-            },
-            "imageUrl": "https://cdn.myadoptimizer.com/maojsfiles/images/LogoAdvertiser_000458_52ce13ea-5a04-42cc-8c44-919677e99f04.jpg",
-            "destUrl": "https://api.myadoptimizer.com/api/MAOHttpRedirect?src=https%3A%2F%2Finfo.floridacareercollege.com%2Fbusiness-office-administration%2F%3Fadkey%3DIS1CAEXN00%26ctc%3D877-425-6149%26utm_source%3Dcexplorer%26utm_medium%3Dcpc%26utm_campaign060118-fcc-cpc%26utm_content%3DFCC-Business%26CCK%3Dacbb214a-e69e-4394-bea0-3b48f6997cca%7Cfcc_business%26t%3DtestClickID&LandingPageID=43&EventID=acbb214a-e69e-4394-bea0-3b48f6997cca&AdNetworkAPIID=44&cpc=34.50&Brand=Florida Career College&Title=Earn A Business Office Administration Diploma - Start Building A Future You Can Be Proud Of&CB=1VawjEjip8ij5oaSZJZ0mw==&M=4XarSvqYDCayCqZpzLZFSg==&Weight=34.50&BidModifiers=50.00&NetworkAdID=458&SourceID=&LandingPageURL=",
-            "impressionUrl": "https://api.myadoptimizer.com/api/MAOSaveResults?LandingPageID=43&AdNetworkAPIID=44&EventID=acbb214a-e69e-4394-bea0-3b48f6997cca&AdCampaignID=458&RequestTypeID=4",
-            "revenue": 34.50,
-            "baseRevenue": 23.00,
-            "isOnlineSchool": null,
-            "schoolAddress": "",
-            "schoolCity": "",
-            "schoolState": "",
-            "schoolZipCode": "",
-            "bidModifierLog": [
-              "Ad Placement: ICF - Value: 50.00%",
-              "States: PA - Value: -10.00%",
-              "Tuesday: 14:40 - Value: 10.00%"
-            ],
-            "weight": 34.50,
-            "statusId": 1,
-            "trackingURL": "https://api.myadoptimizer.com/api/MAOLeadTracking?AdNetworkAPIID=44&LandingPageID=43&EventID=acbb214a-e69e-4394-bea0-3b48f6997cca&IP=123.32.32.123&AdCampaignID=458",
-            "displayUrl": "http://www.floridacareercollege.com/business-office-administration"
-        }
-    ]
+	"searchResultId": "acbb214a-e69e-4394-bea0-3b48f6997cca",
+	"duration": 446,
+	"items": [
+		{
+			"itemId": "458",
+			"brandName": "Florida Career College",
+			"networkSort": 1,
+			"requestDuration": 306,
+			"sourceID": null,
+			"extClickID": "testClickID",
+			"advertiserId": "409",
+			"displayName": "Earn A Business Office Administration Diploma - Start Building A Future You Can Be Proud Of",
+			"adCopyVersion": 1,
+			"headline": "Learn valuable technical skills like - Microsoft Word&#174;, Microsoft Excel&#174;, Microsoft PowerPoint&#174; and more!&lt;br /&gt;Prepare for career opportunities like: Administrative Assistant, Secretary, Customer Service Rep, and more!&lt;br /&gt;Fast: Prepare for a career in as few as 10 months&lt;br /&gt;Convenient: Daytime and evening classes available",
+			"blurbs": [
+				"Learn valuable technical skills like - Microsoft Word®, Microsoft Excel®, Microsoft PowerPoint® and more!",
+				"Prepare for career opportunities like: Administrative Assistant, Secretary, Customer Service Rep, and more!",
+				"Fast: Prepare for a career in as few as 10 months",
+				"Convenient: Daytime and evening classes available",
+				"Helpful: Financial Aid available to those who qualify"
+			],
+			"programAdCopy": {
+				"customVar": [
+					{
+						"element": "Institution",
+						"items": [
+							{
+								"item": "Public",
+								"value": true
+							}
+						]
+					},
+					{
+						"element": "Profit",
+						"items": [
+							{
+								"item": "Non-Profit",
+								"value": true
+							}
+						]
+					},
+					{
+						"element": "Enrollment",
+						"items": [
+							{
+								"item": "> 50K Students",
+								"value": true
+							}
+						]
+					}
+				],
+				"constraints": [
+					{
+						"element": "Accreditations",
+						"items": [
+							{
+								"item": "Regionally Accredited",
+								"value": true
+							},
+							{
+								"item": "Nationally Accredited",
+								"value": true
+							},
+							{
+								"item": "CACREP Accredited",
+								"value": true
+							},
+							{
+								"item": "MPCAC Accredited",
+								"value": true
+							}
+						]
+					},
+					{
+						"element": "Program Requirements",
+						"items": [
+							{
+								"item": "NO GRE",
+								"value": true
+							},
+							{
+								"item": "NO GMAT",
+								"value": true
+							}
+						]
+					},
+					{
+						"element": "Program Length",
+						"items": [
+							{
+								"item": "1 Year Program",
+								"value": true
+							},
+							{
+								"item": "2 Year Program",
+								"value": true
+							},
+							{
+								"item": "18 Month Program",
+								"value": true
+							},
+							{
+								"item": "Accelerated",
+								"value": true
+							},
+							{
+								"item": "Advanced Standing Option",
+								"value": true
+							}
+						]
+					}
+				],
+				"location": "Location",
+				"advertiserName": "Advertiser Name",
+				"programName": "Program Name",
+				"programDescription": "Program Description",
+				"imageUrl": "https://cdn.myadoptimizer.com/maojsfiles/images/ProgramAdCopyLogo_000259_d973ac9d-a78f-4829-8ba0-8a9b3bd097f2.png"
+			},
+			"imageUrl": "https://cdn.myadoptimizer.com/maojsfiles/images/LogoAdvertiser_000458_52ce13ea-5a04-42cc-8c44-919677e99f04.jpg",
+			"destUrl": "https://api.myadoptimizer.com/api/MAOHttpRedirect?src=https%3A%2F%2Finfo.floridacareercollege.com%2Fbusiness-office-administration%2F%3Fadkey%3DIS1CAEXN00%26ctc%3D877-425-6149%26utm_source%3Dcexplorer%26utm_medium%3Dcpc%26utm_campaign060118-fcc-cpc%26utm_content%3DFCC-Business%26CCK%3Dacbb214a-e69e-4394-bea0-3b48f6997cca%7Cfcc_business%26t%3DtestClickID&LandingPageID=43&EventID=acbb214a-e69e-4394-bea0-3b48f6997cca&AdNetworkAPIID=44&cpc=34.50&Brand=Florida Career College&Title=Earn A Business Office Administration Diploma - Start Building A Future You Can Be Proud Of&CB=1VawjEjip8ij5oaSZJZ0mw==&M=4XarSvqYDCayCqZpzLZFSg==&Weight=34.50&BidModifiers=50.00&NetworkAdID=458&SourceID=&LandingPageURL=",
+			"impressionUrl": "https://api.myadoptimizer.com/api/MAOSaveResults?LandingPageID=43&AdNetworkAPIID=44&EventID=acbb214a-e69e-4394-bea0-3b48f6997cca&AdCampaignID=458&RequestTypeID=4",
+			"revenue": 34.5,
+			"baseRevenue": 23.0,
+			"isOnlineSchool": null,
+			"schoolAddress": "",
+			"schoolCity": "",
+			"schoolState": "",
+			"schoolZipCode": "",
+			"bidModifierLog": [
+				"Ad Placement: ICF - Value: 50.00%",
+				"States: PA - Value: -10.00%",
+				"Tuesday: 14:40 - Value: 10.00%"
+			],
+			"weight": 34.5,
+			"statusId": 1,
+			"trackingURL": "https://api.myadoptimizer.com/api/MAOLeadTracking?AdNetworkAPIID=44&LandingPageID=43&EventID=acbb214a-e69e-4394-bea0-3b48f6997cca&IP=123.32.32.123&AdCampaignID=458",
+			"displayUrl": "http://www.floridacareercollege.com/business-office-administration"
+		}
+	]
 }
+
 ```
 
 ## Program Ad Copy
@@ -405,13 +470,74 @@ Response example for campaigns with **program ad copy** configured:
                                 "item": "Non-Profit",
                                 "value": true
                             }
-                         ]
+                        ]
                     },
                     {
                         "element": "Enrollment",
                         "items": [
                             {
-                                "item": "> 50K",
+                                "item": "> 50K Students",
+                                "value": true
+                            }
+                        ]
+                    }
+                ],
+                "constraints": [
+                    {
+                        "element": "Accreditations",
+                        "items": [
+                            {
+                                "item": "Regionally Accredited",
+                                "value": true
+                            },
+                            {
+                                "item": "Nationally Accredited",
+                                "value": true
+                            },
+                            {
+                                "item": "CACREP Accredited",
+                                "value": true
+                            },
+                            {
+                                "item": "MPCAC Accredited",
+                                "value": true
+                            }
+                        ]
+                    },
+                    {
+                        "element": "Program Requirements",
+                        "items": [
+                            {
+                                "item": "NO GRE",
+                                "value": true
+                            },
+                            {
+                                "item": "NO GMAT",
+                                "value": true
+                            }
+                        ]
+                    },
+                    {
+                        "element": "Program Length",
+                        "items": [
+                            {
+                                "item": "1 Year Program",
+                                "value": true
+                            },
+                            {
+                                "item": "2 Year Program",
+                                "value": true
+                            },
+                            {
+                                "item": "18 Month Program",
+                                "value": true
+                            },
+                            {
+                                "item": "Accelerated",
+                                "value": true
+                            },
+                            {
+                                "item": "Advanced Standing Option",
                                 "value": true
                             }
                         ]
@@ -420,9 +546,9 @@ Response example for campaigns with **program ad copy** configured:
                 "location": "Location",
                 "advertiserName": "Advertiser Name",
                 "programName": "Program Name",
-                "programDescription": "Program Description"
-            },
-
+                "programDescription": "Program Description",
+                "imageUrl": "https://cdn.myadoptimizer.com/maojsfiles/images/ProgramAdCopyLogo_000259_d973ac9d-a78f-4829-8ba0-8a9b3bd097f2.png"
+            }
 ```
 
 Response example for campaigns with **program ad copy** not configured:
@@ -433,10 +559,12 @@ Response example for campaigns with **program ad copy** not configured:
                     null,
                     null
                 ],
+		"constraints": [],
                 "location": "",
                 "advertiserName": "",
                 "programName": "",
-                "programDescription": ""
+                "programDescription": "",
+		"imageUrl": ""
             },
 ```
 
