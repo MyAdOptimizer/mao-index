@@ -4,7 +4,7 @@
   </a>
   <h3 align="center">MyAdOptimizer.com Data Center API Integration Doc </h3>
   <p align="center">
-    Learn how to integrate the <strong>MAO Data Center API</strong> by following these steps
+    Learn how to integrate the <strong> Campaign On/Off API</strong> by following these steps
     <br />
     <a href="https://myadoptimizer.com">View Site</a>
     ·
@@ -12,9 +12,6 @@
   </p>
 </p>
 
-## Description
-
-API to turn on or off a campaign.
 
 ### EndPoint
 
