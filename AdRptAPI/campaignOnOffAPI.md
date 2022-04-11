@@ -2,7 +2,7 @@
   <a href="https://myadoptimizer.com/">
     <img src="https://myadoptimizer.com/img/logo-blk.svg" alt="Logo" height="80">
   </a>
-  <h3 align="center">MyAdOptimizer.com Data Center API Integration Doc </h3>
+  <h3 align="center">MyAdOptimizer.com Campaign On/Off API Integration Doc </h3>
   <p align="center">
     Learn how to integrate the <strong> Campaign On/Off API</strong> by following these steps
     <br />
