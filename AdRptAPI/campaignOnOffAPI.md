@@ -62,7 +62,7 @@ It requires 3 parameters
 ### API Call
 
 ```
- https://api.myadoptimizer.com/api/AdCampaignAPI?AdToken=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx&CampaignID=10&ActivateCampaign=0
+ https://api.myadoptimizer.com/api/AdCampaignAPI?AdToken=63fb22bf-25da-4ea2-a79b-4838374b2d99&CampaignID=10&ActivateCampaign=0
 
 ```
 
@@ -83,7 +83,7 @@ It requires 3 parameters
 ### API Call
 
 ```
-https://api.myadoptimizer.com/api/AdCampaignAPI?AdToken=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx&CampaignID=10&ActivateCampaign=1
+https://api.myadoptimizer.com/api/AdCampaignAPI?AdToken=63fb22bf-25da-4ea2-a79b-4838374b2d99&CampaignID=10&ActivateCampaign=1
 
 ```
 
