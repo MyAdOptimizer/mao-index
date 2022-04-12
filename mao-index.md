@@ -35,6 +35,9 @@
 - Mortgage Purchase
   - [Server Side](./mortgage-purchase/mao-purchase-server-side.md)
   - [Client Side](./mortgage-purchase/mao-purchase-client-side.md)
+- Solar
+  - [Server Side](./solar/mao-solar-server-side.md)
+  - [Client Side](./solar/mao-solar-client-side.md)
 
 ## Reports API's
 
