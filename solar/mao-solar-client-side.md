@@ -52,7 +52,7 @@ Generic Query String Parameters
 | ZipCode*                   | string    | 5 char US zip code              |
 | State*                     | string    | 2 char US state code (Uppercase) |
 | MonthlyPowerBill*          | string    | $0 - $99, $100 - $149, $150 - $199, $200 - $249, $250 - $349, $350 - $399, $400 - $449, $450 - $499, $500 - $1000+ |
-| UtilityProvider*           | string    | (See full list)[^1] |
+| UtilityProvider*           | string    | (See full list)[^1] Do NOT use commas inside Provider Names, as they're used as separators |
 | RoofSunExposure*           | string    | Full Sun, Partially Shaded, Mostly Shaded, Not Sure |
 | HomeOwner*                 | string    | Yes, No |
 | FName ±                    | string    |  |
