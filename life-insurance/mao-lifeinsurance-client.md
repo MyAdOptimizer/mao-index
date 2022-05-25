@@ -26,10 +26,10 @@
 
 MyAdOptimizer.com will provide a Javascript snippet back to you to add to your new `Thank You` page as follows:
 ```html
-<script src="https://cdn.myadoptimizer.com/maojsfiles/landingpagesjs/{{YOUR_MYADOPTIMIZER_ID}}.js"></script>
+<script src="https://cdn.myadoptimizer.com/maojsfiles/landingpagesjs/{{LandingPageToken}}.js"></script>
 ```
 
-* {{YOUR_MYADOPTIMIZER_ID}}: `Token that will be provided by your account manager`
+* {{LandingPageToken}}: `Token that will be provided by your account manager`
 * Div Element: `Aggregated results will be rendered automatically once the thank you page loads on the user browser. An HTML DIV element with ID="target" must be created in the Thank-You page as results will be rendered inside that element.`
 * Default CSS Theme: `MyAdOptimizer provides a default CSS; however, if you wish to change it and create your own to match your landing page theme, please contact your account manager`
 
