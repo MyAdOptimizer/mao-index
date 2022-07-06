@@ -39,6 +39,11 @@ Generic Query String Parameters
 * SourceID: `Optional, tracking variable`
 * ExtClickID: `Optional, tracking variable`
 * UserAgent: `Optional,  Mozilla/<version> (<system-information>) <platform> (<platform-details>) <extensions>`
+* CustomVar1: `Optional, tracking variable (Max length - 75)`
+* CustomVar2: `Optional, tracking variable (Max length - 75)`
+* CustomVar3: `Optional, tracking variable (Max length - 75)`
+* CustomVar4: `Optional, tracking variable (Max length - 75)`
+* CustomVar5: `Optional, tracking variable (Max length - 75)`
 
 
 <h3>Specific Query String Parameters for <strong>Medicare</strong></h3>

@@ -2,9 +2,9 @@
   <a href="https://myadoptimizer.com/">
     <img src="https://myadoptimizer.com/img/logo-blk.svg" alt="Logo" height="80">
   </a>
-  <h3 align="center">MyAdOptimizer.com Data Center API Integration Doc </h3>
+  <h3 align="center">MyAdOptimizer.com Campaign On/Off API Integration Doc </h3>
   <p align="center">
-    Learn how to integrate the <strong>MAO Data Center API</strong> by following these steps
+    Learn how to integrate the <strong> Campaign On/Off API</strong> by following these steps
     <br />
     <a href="https://myadoptimizer.com">View Site</a>
     ·
@@ -12,9 +12,6 @@
   </p>
 </p>
 
-## Description
-
-API to turn on or off a campaign.
 
 ### EndPoint
 
@@ -62,7 +59,7 @@ It requires 3 parameters
 ### API Call
 
 ```
- https://api.myadoptimizer.com/api/AdCampaignAPI?AdToken=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx&CampaignID=10&ActivateCampaign=0
+ https://api.myadoptimizer.com/api/AdCampaignAPI?AdToken=63fb22bf-25da-4ea2-a79b-4838374b2d99&CampaignID=10&ActivateCampaign=0
 
 ```
 
@@ -83,7 +80,7 @@ It requires 3 parameters
 ### API Call
 
 ```
-https://api.myadoptimizer.com/api/AdCampaignAPI?AdToken=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx&CampaignID=10&ActivateCampaign=1
+https://api.myadoptimizer.com/api/AdCampaignAPI?AdToken=63fb22bf-25da-4ea2-a79b-4838374b2d99&CampaignID=10&ActivateCampaign=1
 
 ```
 
