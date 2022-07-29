@@ -229,7 +229,7 @@ Generic Query String Parameters
     <tr>
         <td>ProgramRequirements*</td>
         <td>string</td>
-        <td colspan=2>NO GRE, NO GMAT</td>
+        <td colspan=2>NO GRE, NO GMAT, NO APPLICATION FEE</td>
     </tr>
     <tr>
         <td>FName ±</td>
