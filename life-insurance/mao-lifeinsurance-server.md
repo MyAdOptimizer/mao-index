@@ -55,7 +55,7 @@ Generic Query String Parameters
 | CurrentPolicy*  | string | Yes, No |
 | EmploymentStatus*    | string |  Employed, Self-Employed, Retired, Not Employed       |
 |CoverageAmount | int | 0 - 5000000 |
-|InsuranceType | string | Term, Whole |
+|InsuranceType | string | Term, Whole, Final Expense |
 | Gender*             | string | Male, Female |
 | MilitaryStatus*     | string | Yes, No |
 | Married*                   | string | Married, Single |
