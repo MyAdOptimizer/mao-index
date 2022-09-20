@@ -22,6 +22,7 @@
   - [Client Side](./home-insurance/mao-home-insurance-client-side.md)
 - Education
   - [Server Side](./education/mao-education-server-side.md)
+  - [Server Side (Listings Mode)](./education/mao-education-server-side-listing-mode.md)
   - [Client Side](./education/mao-education-client-side.md)
 - Life Insurance
   - [Server Side](./life-insurance/mao-lifeinsurance-server.md)

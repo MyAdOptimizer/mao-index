@@ -68,108 +68,104 @@ Generic Query String Parameters
     <tr>
         <td>AdPlacement*</td>
         <td>string</td>
-        <td colspan=2 >ICF, No Matches, After Matches, API, High School, Ad Unit, Organic Exit Pop, Paid Search Exit Pop, Program Listings - Widget**, Program  Listings - Static**</td>
+        <td colspan=2 >ICF, No Matches, After Matches, API, High School, Ad Unit, Organic Exit Pop, Paid Search Exit Pop</td>
     </tr>
     <tr>
         <td>AreaOfStudy* </td>
         <td>String</td>
         <td colspan=2>
             Arts / Design / Fashion, Business, Communication & Multimedia, Computers & IT, Cosmetology & Beauty, Criminal Justice & Law Enforcement, Culinary Arts & Hospitality, Education & Teaching, General Studies / Undecided, Health & Medical / Nursing, Legal
-            Professions, Massage Therapy & Healing Arts, Political Science, Psychology & Social Work, Religious Studies,Trades & Careers, Counseling, ANY
+            Professions, Massage Therapy & Healing Arts, Political Science, Psychology & Social Work, Religious Studies,Trades & Careers, Counseling
         </td>
     </tr>
     <tr>
         <td rowspan=18> Concentration*</td>
         <td rowspan=18> string </td>
         <td> Arts / Design / Fashion </td>
-        <td>Design & Visual Communications, Fashion/Apparel Design, Film and Theater, Graphic Design, Industrial Design, Interior Design, Photography, Visual Arts, ANY</td>
+        <td>Design & Visual Communications, Fashion/Apparel Design, Film and Theater, Graphic Design, Industrial Design, Interior Design, Photography, Visual Arts</td>
     </tr>
     <tr>
         <td>Business</td>
         <td>
             Accounting & Related Services, Administrative & Secretarial Services, Business Communications, E-Commerce/Business, Economics, Entrepreneurship & Small Business, Fashion and Apparel, Finance, General Business, Green & Sustainable Management, Hospitality
-            & Restaurants, Human Resources, Information Systems Management, International, Business, Management, Marketing, Property Management / Real Estate, Public & Non-Profit Administration, Retail & Sales, Supply Chain Management, Business Administration, Business Intelligence, Organizational Leadership, Project Management, Taxation, ANY
+            & Restaurants, Human Resources, Information Systems Management, International, Business, Management, Marketing, Property Management / Real Estate, Public & Non-Profit Administration, Retail & Sales, Supply Chain Management, Business Administration, Business Intelligence, Organizational Leadership, Project Management, Taxation
         </td>
     </tr>
     <tr>
         <td>Communication & Multimedia</td>
         <td>
             Advertising, Animation & Video Graphics, Commercial & Advertising Art, Computer Media Applications, Design & Visual Communications, Film/Video & Cinematography, Graphic Design, Intermedia/Multimedia, Photography, Recording Arts Technology, Web
-            Design, ANY
+            Design
         </td>
     </tr>
     <tr>
         <td>Computers & IT</td>
         <td>
-            Computer Science, Computer Support Services, Computer Systems Security, Networking, Software Development, Systems Administration, Telecommunications, Web Design and Internet, Analytics & Data Science, Engineering, Information & Library Sciences, Information Technology/Systems, ANY
+            Computer Science, Computer Support Services, Computer Systems Security, Networking, Software Development, Systems Administration, Telecommunications, Web Design and Internet, Analytics & Data Science, Engineering, Information & Library Sciences, Information Technology/Systems
         </td>
     </tr>
     <tr>
         <td>Cosmetology & Beauty</td>
         <td>
-            Barbering/Barber, Cosmetology/Cosmetologist, Esthetician & Skin Care, Hair Styling & Hair Design, Make-Up Artist/Specialist, Manicurist/Nail Specialist, ANY
+            Barbering/Barber, Cosmetology/Cosmetologist, Esthetician & Skin Care, Hair Styling & Hair Design, Make-Up Artist/Specialist, Manicurist/Nail Specialist
         </td>
     </tr>
     <tr>
         <td>Criminal Justice & Law Enforcement</td>
         <td>
             Correctional Officer (Prison Officer), Criminal Justice & Law Enforcement/Police, Fire Science, Forensics/Crime Scene Investigation, Homeland Security, Security Services,
-            Criminal Justice, Criminology, ANY
+            Criminal Justice, Criminology
         </td>
     </tr>
     <tr>
         <td>Culinary Arts & Hospitality</td>
-        <td>Baking and Pastry Arts, Culinary Arts, Food Services, Hospitality Management, Restaurant & Food Services, Tourism & Travel Management, ANY</td>
+        <td>Baking and Pastry Arts, Culinary Arts, Food Services, Hospitality Management, Restaurant & Food Services, Tourism & Travel Management</td>
     </tr>
     <tr>
         <td>Education & Teaching</td>
         <td>
-            Administration & Leadership, Curriculum and Instruction, Early Childhood Education, Education and Teaching, General Education, Secondary Education, Educational Technology, Elementary Education, Music Education, Reading & Literacy, Special Education, Teaching, ANY
+            Administration & Leadership, Curriculum and Instruction, Early Childhood Education, Education and Teaching, General Education, Secondary Education, Educational Technology, Elementary Education, Music Education, Reading & Literacy, Special Education, Teaching
         </td>
     </tr>
     <tr>
         <td>General Studies / Undecided</td>
-        <td>General Studies, Liberal Arts, Undecided, ANY</td>
+        <td>General Studies, Liberal Arts, Undecided</td>
     </tr>
     <tr>
         <td>Health & Medical / Nursing</td>
         <td>
-            Alternative Medicine/Healing Arts, Dental Assisting, Dental Hygienist, Diagnostic & Treatment Technician, Gerontology, Health Information Technology/Records, Healthcare Administration, Human Services/Social Work, Medical Assistant, Medical Insurance Biller/Coder, Medical Office Assistant, Medical Transcriptionist, Nursing - Licensed Practical/Vocational Nurse Training (Certificate), Nursing - MSN, Nursing - Registered Nurse (AAS), Nursing - RN to BSN, Nursing Assistant (CNA), Personal Training / Nutrition, Pharmacy Technician/Assistant, Phlebotomy / Clinical Medical Lab. Technician, Physical Therapy & Rehabilitation, Psychology, Surgical Technologist, Ultrasound Technician, Veterinary Medicine, X-Ray/Radiologic Technician, Emergency Management, Nurse Education, Nurse Practitioner (RN Required), Public Health, Speech Pathology/Therapy, ANY
+            Alternative Medicine/Healing Arts, Dental Assisting, Dental Hygienist, Diagnostic & Treatment Technician, Gerontology, Health Information Technology/Records, Healthcare Administration, Human Services/Social Work, Medical Assistant, Medical Insurance Biller/Coder, Medical Office Assistant, Medical Transcriptionist, Nursing - Licensed Practical/Vocational Nurse Training (Certificate), Nursing - MSN, Nursing - Registered Nurse (AAS), Nursing - RN to BSN, Nursing Assistant (CNA), Personal Training / Nutrition, Pharmacy Technician/Assistant, Phlebotomy / Clinical Medical Lab. Technician, Physical Therapy & Rehabilitation, Psychology, Surgical Technologist, Ultrasound Technician, Veterinary Medicine, X-Ray/Radiologic Technician, Emergency Management, Nurse Education, Nurse Practitioner (RN Required), Public Health, Speech Pathology/Therapy
         </td>
     </tr>
     <tr>
         <td>Legal Professions</td>
-        <td>Court Reporting, Legal Administrative Assistant, Legal Assistant/Paralegal, Legal Studies, ANY</td>
+        <td>Court Reporting, Legal Administrative Assistant, Legal Assistant/Paralegal, Legal Studies</td>
     </tr>
     <tr>
         <td>Massage Therapy & Healing Arts</td>
-        <td>Healing Arts & Alternative Medicine, Massage Therapy, ANY</td>
+        <td>Healing Arts & Alternative Medicine, Massage Therapy</td>
     </tr>
     <tr>
         <td>Political Science</td>
-        <td>Political Science, ANY</td>
+        <td>Political Science</td>
     </tr>
     <tr>
         <td>Psychology & Social Work</td>
         <td>
-            Business & Organizational Psychology, Clinical Psychology, Counseling Psychology, Forensic Psychology/Crime Scene Investigator, General Psychology, Human Services/Social Work, Sport Psychology, Behavioral Psychology, Child Psychology, Educational Psychology, ANY
+            Business & Organizational Psychology, Clinical Psychology, Counseling Psychology, Forensic Psychology/Crime Scene Investigator, General Psychology, Human Services/Social Work, Sport Psychology, Behavioral Psychology, Child Psychology, Educational Psychology
         </td>
     </tr>
     <tr>
         <td>Religious Studies</td>
-        <td>Christian Studies, Ministry, Religious Studies, Theology, ANY</td>
+        <td>Christian Studies, Ministry, Religious Studies, Theology</td>
     </tr>
     <tr>
         <td>Trades & Careers</td>
-        <td>Aircraft Maintenance, Auto Mechanic, Autobody Repair, Aviation, CAD Drafting and Design, Computer Installation & Repair, Computer Systems Technology, Construction Management, Electrician, Engineering Technology/Technicians, HVAC, Laboratory Technician, Plumbing Technology/Plumber, Telecommunications Technology, Truck Driving, Welding Technology/Welder, ANY</td>
+        <td>Aircraft Maintenance, Auto Mechanic, Autobody Repair, Aviation, CAD Drafting and Design, Computer Installation & Repair, Computer Systems Technology, Construction Management, Electrician, Engineering Technology/Technicians, HVAC, Laboratory Technician, Plumbing Technology/Plumber, Telecommunications Technology, Truck Driving, Welding Technology/Welder</td>
     </tr>
     <tr>
         <td>Counseling</td>
-        <td>Addictions & Recovery, Counseling, Family Counseling, Mental Health Counseling, School Counseling, ANY</td>
-    </tr>
-    <tr>
-        <td>ANY</td>
-        <td>ANY</td>
+        <td>Addictions & Recovery, Counseling, Family Counseling, Mental Health Counseling, School Counseling</td>
     </tr>
     <tr>
         <td>DegreeLevel*</td>
@@ -189,7 +185,7 @@ Generic Query String Parameters
     <tr>
         <td>LearningPreference*</td>
         <td>string</td>
-        <td colspan=2>CAMPUS, ONLINE, HYBRID, ANY</td>
+        <td colspan=2>CAMPUS, ONLINE, BOTH</td>
     </tr>
     <tr>
         <td>LikelihoodToEnroll*</td>
@@ -215,21 +211,6 @@ Generic Query String Parameters
         <td>USCitizen*</td>
         <td>string</td>
         <td colspan=2>true, false, null</td>
-    </tr>
-    <tr>
-        <td>Accreditations*</td>
-        <td>string</td>
-        <td colspan=2>Regionally Accredited, Nationally Accredited, Cacrep Accredited, Mpcac Accredited,  AACSB Accredited, AAPC Accredited, ABA Accredited, ABET Accredited, ABHES Accredited, ACBSP Accredited, ACCET Accredited, ACCJC Accredited, ACCSC Accredited, ACEN Accredited, ACEND Accredited, ACICS Accredited, ACOTE Accredited, ACPSP Accredited, AHIMA Accredited, APA Accredited, ARC-PA, Accredited ARRT Accredited, ASHA Accredited, CAAHEP Accredited, CAHIIM Accredited, CAHME Accredited, CCNE Accredited, CEPH Accredited, COAMFTE Accredited, COE Accredited, CSWE Accredited, DEAC Accredited, HLC Accredited, IACBE Accredited, Institutionally Accredited, MSCHE Accredited, NAACLS Accredited, NASAC Accredited, NASP Accredited, NASPAA Accredited, NAVTA Accredited, NEASC Accredited, NECHE Accredited, NLNAC Accredited, NWCCU Accredited, SACSCOC Accredited, SACSOC Accredited, WSCUC Accredited</td>
-    </tr>
-    <tr>
-        <td>ProgramLength*</td>
-        <td>string</td>
-        <td colspan=2>1 Year Program, 2 Year Program, 18 Month Program, Accelerated, Advanced Standig Option</td>
-    </tr>
-    <tr>
-        <td>ProgramRequirements*</td>
-        <td>string</td>
-        <td colspan=2>NO GRE, NO GMAT, NO APPLICATION FEE</td>
     </tr>
     <tr>
         <td>FName ±</td>
@@ -283,271 +264,65 @@ Example response:
 
 ```JSON
 {
-	"searchResultId": "acbb214a-e69e-4394-bea0-3b48f6997cca",
-	"duration": 446,
-	"items": [
-		{
-			"itemId": "458",
-			"brandName": "Florida Career College",
-			"networkSort": 1,
-			"requestDuration": 306,
-			"sourceID": null,
-			"extClickID": "testClickID",
-			"advertiserId": "409",
-			"displayName": "Earn A Business Office Administration Diploma - Start Building A Future You Can Be Proud Of",
-			"adCopyVersion": 1,
-			"headline": "Learn valuable technical skills like - Microsoft Word&#174;, Microsoft Excel&#174;, Microsoft PowerPoint&#174; and more!&lt;br /&gt;Prepare for career opportunities like: Administrative Assistant, Secretary, Customer Service Rep, and more!&lt;br /&gt;Fast: Prepare for a career in as few as 10 months&lt;br /&gt;Convenient: Daytime and evening classes available",
-			"blurbs": [
-				"Learn valuable technical skills like - Microsoft Word®, Microsoft Excel®, Microsoft PowerPoint® and more!",
-				"Prepare for career opportunities like: Administrative Assistant, Secretary, Customer Service Rep, and more!",
-				"Fast: Prepare for a career in as few as 10 months",
-				"Convenient: Daytime and evening classes available",
-				"Helpful: Financial Aid available to those who qualify"
-			],
-			"programAdCopy": {
-				"customVar": [
-					{
-						"element": "Institution",
-						"items": [
-							{
-								"item": "Public",
-								"value": true
-							}
-						]
-					},
-					{
-						"element": "Profit",
-						"items": [
-							{
-								"item": "Non-Profit",
-								"value": true
-							}
-						]
-					},
-					{
-						"element": "Enrollment",
-						"items": [
-							{
-								"item": "> 50K Students",
-								"value": true
-							}
-						]
-					}
-				],
-				"constraints": [
-					{
-						"element": "Accreditations",
-						"items": [
-							{
-								"item": "Regionally Accredited",
-								"value": true
-							},
-							{
-								"item": "Nationally Accredited",
-								"value": true
-							},
-							{
-								"item": "CACREP Accredited",
-								"value": true
-							},
-							{
-								"item": "MPCAC Accredited",
-								"value": true
-							}
-						]
-					},
-					{
-						"element": "Program Requirements",
-						"items": [
-							{
-								"item": "NO GRE",
-								"value": true
-							},
-							{
-								"item": "NO GMAT",
-								"value": true
-							}
-						]
-					},
-					{
-						"element": "Program Length",
-						"items": [
-							{
-								"item": "1 Year Program",
-								"value": true
-							},
-							{
-								"item": "2 Year Program",
-								"value": true
-							},
-							{
-								"item": "18 Month Program",
-								"value": true
-							},
-							{
-								"item": "Accelerated",
-								"value": true
-							},
-							{
-								"item": "Advanced Standing Option",
-								"value": true
-							}
-						]
-					}
-				],
-				"location": "Location",
-				"advertiserName": "Advertiser Name",
-				"programName": "Program Name",
-				"programDescription": "Program Description",
-				"imageUrl": "https://cdn.myadoptimizer.com/maojsfiles/images/ProgramAdCopyLogo_000259_d973ac9d-a78f-4829-8ba0-8a9b3bd097f2.png"
-			},
-			"imageUrl": "https://cdn.myadoptimizer.com/maojsfiles/images/LogoAdvertiser_000458_52ce13ea-5a04-42cc-8c44-919677e99f04.jpg",
-			"destUrl": "https://api.myadoptimizer.com/api/MAOHttpRedirect?src=https%3A%2F%2Finfo.floridacareercollege.com%2Fbusiness-office-administration%2F%3Fadkey%3DIS1CAEXN00%26ctc%3D877-425-6149%26utm_source%3Dcexplorer%26utm_medium%3Dcpc%26utm_campaign060118-fcc-cpc%26utm_content%3DFCC-Business%26CCK%3Dacbb214a-e69e-4394-bea0-3b48f6997cca%7Cfcc_business%26t%3DtestClickID&LandingPageID=43&EventID=acbb214a-e69e-4394-bea0-3b48f6997cca&AdNetworkAPIID=44&cpc=34.50&Brand=Florida Career College&Title=Earn A Business Office Administration Diploma - Start Building A Future You Can Be Proud Of&CB=1VawjEjip8ij5oaSZJZ0mw==&M=4XarSvqYDCayCqZpzLZFSg==&Weight=34.50&BidModifiers=50.00&NetworkAdID=458&SourceID=&LandingPageURL=",
-			"impressionUrl": "https://api.myadoptimizer.com/api/MAOSaveResults?LandingPageID=43&AdNetworkAPIID=44&EventID=acbb214a-e69e-4394-bea0-3b48f6997cca&AdCampaignID=458&RequestTypeID=4",
-			"revenue": 34.5,
-			"baseRevenue": 23.0,
-			"isOnlineSchool": null,
-			"schoolAddress": "",
-			"schoolCity": "",
-			"schoolState": "",
-			"schoolZipCode": "",
-			"bidModifierLog": [
-				"Ad Placement: ICF - Value: 50.00%",
-				"States: PA - Value: -10.00%",
-				"Tuesday: 14:40 - Value: 10.00%"
-			],
-			"weight": 34.5,
-			"statusId": 1,
-			"trackingURL": "https://api.myadoptimizer.com/api/MAOLeadTracking?AdNetworkAPIID=44&LandingPageID=43&EventID=acbb214a-e69e-4394-bea0-3b48f6997cca&IP=123.32.32.123&AdCampaignID=458",
-			"displayUrl": "http://www.floridacareercollege.com/business-office-administration"
-		}
-	]
+   "searchResultId":"acbb214a-e69e-4394-bea0-3b48f6997cca",
+   "duration":446,
+   "items":[
+      {
+         "itemId":"458",
+         "brandName":"Florida Career College",
+         "networkSort":1,
+         "requestDuration":306,
+         "sourceID":null,
+         "extClickID":"testClickID",
+         "advertiserId":"409",
+         "displayName":"Earn A Business Office Administration Diploma - Start Building A Future You Can Be Proud Of",
+         "adCopyVersion":1,
+         "headline":"Learn valuable technical skills like - Microsoft Word&#174;, Microsoft Excel&#174;, Microsoft PowerPoint&#174; and more!&lt;br /&gt;Prepare for career opportunities like: Administrative Assistant, Secretary, Customer Service Rep, and more!&lt;br /&gt;Fast: Prepare for a career in as few as 10 months&lt;br /&gt;Convenient: Daytime and evening classes available",
+         "blurbs":[
+            "Learn valuable technical skills like - Microsoft Word®, Microsoft Excel®, Microsoft PowerPoint® and more!",
+            "Prepare for career opportunities like: Administrative Assistant, Secretary, Customer Service Rep, and more!",
+            "Fast: Prepare for a career in as few as 10 months",
+            "Convenient: Daytime and evening classes available",
+            "Helpful: Financial Aid available to those who qualify"
+         ],
+         "programAdCopy":{
+            "customVar":[
+               null,
+               null,
+               null
+            ],
+            "constraints":[
+               
+            ],
+            "location":"",
+            "advertiserName":"",
+            "programName":"",
+            "programDescription":"",
+            "imageUrl":""
+         },
+         "imageUrl":"https://cdn.myadoptimizer.com/maojsfiles/images/LogoAdvertiser_000458_52ce13ea-5a04-42cc-8c44-919677e99f04.jpg",
+         "destUrl":"https://api.myadoptimizer.com/api/MAOHttpRedirect?src=https%3A%2F%2Finfo.floridacareercollege.com%2Fbusiness-office-administration%2F%3Fadkey%3DIS1CAEXN00%26ctc%3D877-425-6149%26utm_source%3Dcexplorer%26utm_medium%3Dcpc%26utm_campaign060118-fcc-cpc%26utm_content%3DFCC-Business%26CCK%3Dacbb214a-e69e-4394-bea0-3b48f6997cca%7Cfcc_business%26t%3DtestClickID&LandingPageID=43&EventID=acbb214a-e69e-4394-bea0-3b48f6997cca&AdNetworkAPIID=44&cpc=34.50&Brand=Florida Career College&Title=Earn A Business Office Administration Diploma - Start Building A Future You Can Be Proud Of&CB=1VawjEjip8ij5oaSZJZ0mw==&M=4XarSvqYDCayCqZpzLZFSg==&Weight=34.50&BidModifiers=50.00&NetworkAdID=458&SourceID=&LandingPageURL=",
+         "impressionUrl":"https://api.myadoptimizer.com/api/MAOSaveResults?LandingPageID=43&AdNetworkAPIID=44&EventID=acbb214a-e69e-4394-bea0-3b48f6997cca&AdCampaignID=458&RequestTypeID=4",
+         "revenue":34.5,
+         "baseRevenue":23.0,
+         "isOnlineSchool":null,
+         "schoolAddress":"",
+         "schoolCity":"",
+         "schoolState":"",
+         "schoolZipCode":"",
+         "bidModifierLog":[
+            "Ad Placement: ICF - Value: 50.00%",
+            "States: PA - Value: -10.00%",
+            "Tuesday: 14:40 - Value: 10.00%"
+         ],
+         "weight":34.5,
+         "statusId":1,
+         "trackingURL":"https://api.myadoptimizer.com/api/MAOLeadTracking?AdNetworkAPIID=44&LandingPageID=43&EventID=acbb214a-e69e-4394-bea0-3b48f6997cca&IP=123.32.32.123&AdCampaignID=458",
+         "displayUrl":"http://www.floridacareercollege.com/business-office-administration"
+      }
+   ]
 }
-
 ```
-
-## Program Ad Copy
-
-Response example for campaigns with **program ad copy** configured:
-
-```JSON
-"programAdCopy": {
-                "customVar": [
-                    {
-                        "element": "Institution",
-                        "items": [
-                            {
-                                "item": "Public",
-                                "value": true
-                            }
-                        ]
-                    },
-                    {
-                        "element": "Profit",
-                        "items": [
-                            {
-                                "item": "Non-Profit",
-                                "value": true
-                            }
-                        ]
-                    },
-                    {
-                        "element": "Enrollment",
-                        "items": [
-                            {
-                                "item": "> 50K Students",
-                                "value": true
-                            }
-                        ]
-                    }
-                ],
-                "constraints": [
-                    {
-                        "element": "Accreditations",
-                        "items": [
-                            {
-                                "item": "Regionally Accredited",
-                                "value": true
-                            },
-                            {
-                                "item": "Nationally Accredited",
-                                "value": true
-                            },
-                            {
-                                "item": "CACREP Accredited",
-                                "value": true
-                            },
-                            {
-                                "item": "MPCAC Accredited",
-                                "value": true
-                            }
-                        ]
-                    },
-                    {
-                        "element": "Program Requirements",
-                        "items": [
-                            {
-                                "item": "NO GRE",
-                                "value": true
-                            },
-                            {
-                                "item": "NO GMAT",
-                                "value": true
-                            }
-                        ]
-                    },
-                    {
-                        "element": "Program Length",
-                        "items": [
-                            {
-                                "item": "1 Year Program",
-                                "value": true
-                            },
-                            {
-                                "item": "2 Year Program",
-                                "value": true
-                            },
-                            {
-                                "item": "18 Month Program",
-                                "value": true
-                            },
-                            {
-                                "item": "Accelerated",
-                                "value": true
-                            },
-                            {
-                                "item": "Advanced Standing Option",
-                                "value": true
-                            }
-                        ]
-                    }
-                ],
-                "location": "Location",
-                "advertiserName": "Advertiser Name",
-                "programName": "Program Name",
-                "programDescription": "Program Description",
-                "imageUrl": "https://cdn.myadoptimizer.com/maojsfiles/images/ProgramAdCopyLogo_000259_d973ac9d-a78f-4829-8ba0-8a9b3bd097f2.png"
-            }
-```
-
-Response example for campaigns with **program ad copy** not configured:
-```JSON
- "programAdCopy": {
-                "customVar": [
-                    null,
-                    null,
-                    null
-                ],
-		"constraints": [],
-                "location": "",
-                "advertiserName": "",
-                "programName": "",
-                "programDescription": "",
-		"imageUrl": ""
-            },
-```
-
-
 
 ## External Ad Networks Setup OPTIONAL
 
