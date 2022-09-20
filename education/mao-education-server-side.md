@@ -167,6 +167,8 @@ Generic Query String Parameters
         <td>Counseling</td>
         <td>Addictions & Recovery, Counseling, Family Counseling, Mental Health Counseling, School Counseling</td>
     </tr>
+<tr>
+    </tr>
     <tr>
         <td>DegreeLevel*</td>
         <td>string</td>
