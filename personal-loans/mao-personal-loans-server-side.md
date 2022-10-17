@@ -71,12 +71,12 @@ Generic Query String Parameters
 | Phone ±                    | string    |  |
 | Address ±                  | string    |  |
 | City ±                     | string    |  |
-| Date of Birth ±            | string    | yyyy-mm-dd |
+| DOB ±                      | string    | yyyy-mm-dd |
 | MediaChannel               | string    | Social, Facebook, Native, Email, Display, SEM, SEO, SMS, Push, Affiliate, ChannelA, ChannelB, ChannelC, ChannelD, ChannelE |
 
 *Case Sensitive
 
-±PII Fields
+±PII Fields - These values are not constraints and will not be evaluated by MAO
 
 ### API Response
 
