@@ -53,15 +53,15 @@ Generic Query String Parameters
 | ZipCode*                   | string    | 5 char US zip code              |
 | State*                     | string    | 2 char US state code (Uppercase) |
 | LoanPurpose*               | string    | Immediate Bills/Expenses, Credit Card Refinance, Debt Consolidation, Home Improvement, Other |
-| BorrowAmount*              | string    | $1,000 - $4,999, $5,000 - $9,999, $10,000 - $14,999, $15,000 - $19,999, $20,000 - $29,999, $30,000 - $39,999, $40,000 - $49,999, $50,000 or more |
+| BorrowAmount*              | int       | 0-100000000 |
 | BorrowingTimeline*         | string    | Within 48 hours, Within 2 weeks, Within 1 month, Unsure |
 | HomeOwner*                 | string    | Yes, No |
 | CreditScore*               | string    | Excellent, Good, Fair, Poor, Subprime |
 | Gender*                    | string    | Male, Female, Other |
 | EmploymentStatus*          | string    | Employed, Employed-Part-Time, Self-Employed, Not Employed, Retired |
 | CoBorrower*                | string    | Yes, No |
-| AnnualPreTaxIncome*        | string    | Less than $30,000, $30,000 - $39,999, $40,000 - $49,999, $50,000 - $59,999, $60,000 - $69,999, $70,000 - $79,999, $80,000 - $89,999, $90,000 - $99,999, $100,000 or more |
-| MonthlyPreTaxIncome*       | string    | Less than $2,500, $2,500 - $2,999, $3,000 - $3,999, $4,000 - $4,999, $5,000 - $5,999, $6,000 - $6,999, $7,000 - $7,999, $8,000 - $8,999, $9,000 or more |
+| AnnualPreTaxIncome*        | int       | 0-100000000 |
+| MonthlyPreTaxIncome*       | int       | 0-100000000 |
 | Married*                   | string    | Married, Single |
 | MilitaryStatus*            | string    | Yes, No |
 | Age                        | integer   | 1 - 99 |
@@ -71,7 +71,7 @@ Generic Query String Parameters
 | Phone ±                    | string    |  |
 | Address ±                  | string    |  |
 | City ±                     | string    |  |
-| Date of Birth ±            | string    |  |
+| Date of Birth ±            | string    | yyyy-mm-dd |
 | MediaChannel               | string    | Social, Facebook, Native, Email, Display, SEM, SEO, SMS, Push, Affiliate, ChannelA, ChannelB, ChannelC, ChannelD, ChannelE |
 
 *Case Sensitive
