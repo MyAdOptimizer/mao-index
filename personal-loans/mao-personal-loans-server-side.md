@@ -52,7 +52,7 @@ Generic Query String Parameters
 | :------------------------ | :-------: | :------------- |
 | ZipCode*                   | string    | 5 char US zip code              |
 | State*                     | string    | 2 char US state code (Uppercase) |
-| LoanPurpose*               | string    | Immediate Bills/Expenses, Credit Card Refinance, Debt Consolidation, Home Improvement, Other |
+| LoanPurpose*               | string    | Immediate Bills/Expenses, Credit Card Refinance, Debt Consolidation, Home Improvement, Other, Auto Vehicle Expense, Medical/Dental Bills, Moving/Relocation, Business Expenses, Taxes, Special Event, Vacation |
 | BorrowAmount*              | int       | 0-100000000 |
 | BorrowingTimeline*         | string    | Within 48 hours, Within 2 weeks, Within 1 month, Unsure |
 | HomeOwner*                 | string    | Yes, No |
