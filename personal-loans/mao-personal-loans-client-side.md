@@ -66,6 +66,7 @@ Generic Query String Parameters
 | CoBorrower*                | string    | Yes, No |
 | AnnualPreTaxIncome*        | int       | 0-100000000 |
 | MonthlyPreTaxIncome*       | int       | 0-100000000 |
+| DebtAmount*                | int       | 0-100000000 |
 | Married*                   | string    | Yes, No |
 | MilitaryStatus*            | string    | Yes, No |
 | Age                        | integer   | 1 - 99 |
