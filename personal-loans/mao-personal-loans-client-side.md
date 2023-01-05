@@ -69,7 +69,7 @@ Generic Query String Parameters
 | DebtAmount*                | int       | 0-100000000 |
 | Married*                   | string    | Yes, No |
 | MilitaryStatus*            | string    | Yes, No |
-| Age                        | integer   | 1 - 99 |
+| Age                        | integer   | 1 - 99.  NOTE: If you wish to separate consumers who are >64.5 "Aging in" traffic from consumers who are <64.5 you'll need to collect DOB and use it to determine eligibility.  You can then pass consumers who are >64.5 as "65" and consumers who are <64.5 as "64". |
 | FName ±                    | string    |  |
 | LName ±                    | string    |  |
 | Email ±                    | string    |  |
