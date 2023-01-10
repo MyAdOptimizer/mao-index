@@ -66,7 +66,7 @@ Generic Query String Parameters
 | Married*                   | string | Married, Single |
 | PreCondition*       | string | Yes, No |
 | TabaccoUse*         | string | Yes, No |
-| Age                | integer | 1 - 99.  NOTE: If you wish to separate consumers who are >64.5 "Aging in" traffic from consumers who are <64.5 you'll need to collect DOB and use it to determine eligibility.  You can then pass consumers who are >64.5 as "65" and consumers who are <64.5 as "64". |
+| Age                | integer | 1 - 99 |
 | MediaChannel                | string    | Social, Facebook, Native, Email, Display, SEM, SEO, SMS, Push, Affiliate, ChannelA, ChannelB, ChannelC, ChannelD, ChannelE |
 | FName ±                    | string    |  |
 | LName ±                    | string    |  |
