@@ -76,6 +76,7 @@ Generic Query String Parameters
 * revenue: `Actual payout per click based on bid modifiers.`
 * baseRevenue: `Base bid per click. It'll vary based on bid modifiers.`
 * bidModifierLog: `The log that shows  how the baseRevenue bid was modified.`
+* advertiserName: `The name of the advertiser - The ID of the advertiser`
 
 Example response: 
  ```javascript
@@ -91,6 +92,7 @@ Example response:
             "sourceID": null,
             "extClickID": null,
             "advertiserId": "53",
+            "advertiserName": "Advertiser Name 01 - 486",
             "displayName": "Save time. Save paperwork. Save Dollars.",
             "headline": "Car insurance can be so simple. And so affordable.&lt;br /&gt;We&#39;re making insurance surprisingly painless&lt;br /&gt;Click for quote today and save big!&lt;br /&gt;",
             "blurbs": [

@@ -79,6 +79,7 @@ Generic Query String Parameters
 * revenue: `Actual payout per click based on bid modifiers.`
 * baseRevenue: `Base bid per click. It'll vary based on bid modifiers.`
 * bidModifierLog: `The log that shows  how the baseRevenue bid was modified.`
+* advertiserName: `The name of the advertiser - The ID of the advertiser`
 
 
 Example response:
@@ -95,6 +96,7 @@ Example response:
             "sourceID": null,
             "extClickID": null,
             "advertiserId": "152",
+            "advertiserName": "Spring Venture Group - 470",
             "displayName": "2020 Health Plans from $59/mo",
             "headline": "See Instant Rate Comparison<br />Compare Affordable Coverage Online <br />Choose from PPO, HMO, & Short Term Plans<br />Top Rated Plans for Families & Individuals",
             "blurbs": [

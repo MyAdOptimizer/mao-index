@@ -261,6 +261,7 @@ Generic Query String Parameters
 * revenue: `Actual payout per click based on bid modifiers.`
 * baseRevenue: `Base bid per click. It'll vary based on bid modifiers.`
 * bidModifierLog: `The log that shows  how the baseRevenue bid was modified.`
+* advertiserName: `The name of the advertiser - The ID of the advertiser`
 
 Example response:
 
@@ -277,6 +278,7 @@ Example response:
          "sourceID":null,
          "extClickID":"testClickID",
          "advertiserId":"409",
+         "advertiserName": "Advertiser Name 01 - 486",
          "displayName":"Earn A Business Office Administration Diploma - Start Building A Future You Can Be Proud Of",
          "adCopyVersion":1,
          "headline":"Learn valuable technical skills like - Microsoft Word&#174;, Microsoft Excel&#174;, Microsoft PowerPoint&#174; and more!&lt;br /&gt;Prepare for career opportunities like: Administrative Assistant, Secretary, Customer Service Rep, and more!&lt;br /&gt;Fast: Prepare for a career in as few as 10 months&lt;br /&gt;Convenient: Daytime and evening classes available",
