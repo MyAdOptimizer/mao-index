@@ -198,7 +198,7 @@ Generic Query String Parameters
         <td>string</td>
         <td colspan=2>NOT_LIKELY, SOMEWHAT_LIKELY, VERY_LIKELY</td>
     </tr>
-	    <tr>
+    <tr>
         <td>MediaChannel*</td>
         <td>string</td>
         <td colspan=2>Social, Facebook, Native, Email, Display, SEM, SEO, SMS, Push, Affiliate, ChannelA, ChannelB, ChannelC, ChannelD, ChannelE</td>
