@@ -74,15 +74,21 @@ Generic Query String Parameters
         <td>AreaOfStudy* </td>
         <td>String</td>
         <td colspan=2>
-            Arts / Design / Fashion, Business, Communication & Multimedia, Computers & IT, Cosmetology & Beauty, Criminal Justice & Law Enforcement, Culinary Arts & Hospitality, Education & Teaching, General Studies / Undecided, Health & Medical / Nursing, Legal
+            Arts / Design / Fashion, Bootcamp, Business, Communication & Multimedia, Computers & IT, Cosmetology & Beauty, Criminal Justice & Law Enforcement, Culinary Arts & Hospitality, Education & Teaching, General Studies / Undecided, Health & Medical / Nursing, Legal
             Professions, Massage Therapy & Healing Arts, Political Science, Psychology & Social Work, Religious Studies,Trades & Careers, Counseling, ANY
         </td>
     </tr>
     <tr>
-        <td rowspan=18> Concentration*</td>
-        <td rowspan=18> string </td>
+        <td rowspan=19> Concentration*</td>
+        <td rowspan=19> string </td>
         <td> Arts / Design / Fashion </td>
         <td>Design & Visual Communications, Fashion/Apparel Design, Film and Theater, Graphic Design, Industrial Design, Interior Design, Photography, Visual Arts, ANY</td>
+    </tr>
+    <tr>
+        <td>Bootcamp</td>
+        <td>
+            Data Analytics, Cyber Security, Coding, Software Engineering, General boot camp programs, Project Management, FinTech, Digital Marketing, UI-UX, Web Development, ANY
+        </td>
     </tr>
     <tr>
         <td>Business</td>
@@ -129,12 +135,12 @@ Generic Query String Parameters
     </tr>
     <tr>
         <td>General Studies / Undecided</td>
-        <td>General Studies, Liberal Arts, Undecided, ANY</td>
+        <td>General Studies, History, Liberal Arts, Undecided, Writing, ANY</td>
     </tr>
     <tr>
         <td>Health & Medical / Nursing</td>
         <td>
-            Alternative Medicine/Healing Arts, Dental Assisting, Dental Hygienist, Diagnostic & Treatment Technician, Gerontology, Health Information Technology/Records, Healthcare Administration, Human Services/Social Work, Medical Assistant, Medical Insurance Biller/Coder, Medical Office Assistant, Medical Transcriptionist, Nursing - Licensed Practical/Vocational Nurse Training (Certificate), Nursing - MSN, Nursing - Registered Nurse (AAS), Nursing - RN to BSN, Nursing Assistant (CNA), Personal Training / Nutrition, Pharmacy Technician/Assistant, Phlebotomy / Clinical Medical Lab. Technician, Physical Therapy & Rehabilitation, Psychology, Surgical Technologist, Ultrasound Technician, Veterinary Medicine, X-Ray/Radiologic Technician, Emergency Management, Nurse Education, Nurse Practitioner (RN Required), Public Health, Speech Pathology/Therapy, ANY,Entry-Level Healthcare Programs
+            Alternative Medicine/Healing Arts, Dental Assisting, Dental Hygienist, Diagnostic & Treatment Technician, General Nursing, Gerontology, Health Information Technology/Records, Healthcare Administration, Human Services/Social Work, Medical Assistant, Medical Insurance Biller/Coder, Medical Office Assistant, Medical Transcriptionist, Nursing - Licensed Practical/Vocational Nurse Training (Certificate), Nursing - MSN, Nursing - Registered Nurse (AAS), Nursing - RN to BSN, Nursing Assistant (CNA), Personal Training / Nutrition, Pharmacy Technician/Assistant, Phlebotomy / Clinical Medical Lab. Technician, Physical Therapy & Rehabilitation, Psychology, Surgical Technologist, Ultrasound Technician, Veterinary Medicine, X-Ray/Radiologic Technician, Emergency Management, Nurse Education, Nurse Practitioner (RN Required), Public Health, Speech Pathology/Therapy, Entry-Level Healthcare Programs, ANY
         </td>
     </tr>
     <tr>
