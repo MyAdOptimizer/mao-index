@@ -46,7 +46,7 @@ Generic Query String Parameters
 * CustomVar5: `Optional, tracking variable (Max length - 75)`
 
 
-<h3>Specific Query String Parameters </h3>
+<h3>Specific Query String Parameters for <strong>Mortgage Refinance</strong> </h3>
 
 | Query String Params Names | Data Type | Allowed Values |
 | :------------------------ | :-------: | :------------- |
