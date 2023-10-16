@@ -94,7 +94,7 @@ Generic Query String Parameters
         <td>Business</td>
         <td>
             Accounting & Related Services, Administrative & Secretarial Services, Business Communications, E-Commerce/Business, Economics, Entrepreneurship & Small Business, Fashion and Apparel, Finance, General Business, Green & Sustainable Management, Hospitality
-            & Restaurants, Human Resources, Information Systems Management, International, Business, Management, Marketing, Property Management / Real Estate, Public & Non-Profit Administration, Retail & Sales, Supply Chain Management, Business Administration, Business Intelligence, Organizational Leadership, Project Management, Taxation
+            & Restaurants, Human Resources, Information Systems Management, International, Business, Management, Marketing, Property Management / Real Estate, Public & Non-Profit Administration, Public Relations, Retail & Sales, Supply Chain Management, Business Administration, Business Analytics, Business Intelligence, Organizational Leadership, Project Management, Taxation
         </td>
     </tr>
     <tr>
@@ -107,7 +107,7 @@ Generic Query String Parameters
     <tr>
         <td>Computers & IT</td>
         <td>
-            Computer Science, Computer Support Services, Computer Systems Security, Networking, Software Development, Systems Administration, Telecommunications, Web Design and Internet, Analytics & Data Science, Engineering, Information & Library Sciences, Information Technology/Systems
+            Computer Science, Computer Support Services, Computer Systems Security, Networking, Software Development, Systems Administration, Telecommunications, Web Design and Internet, Analytics & Data Science, Engineering, Information & Library Sciences, Information Technology/Systems, Product Manager
         </td>
     </tr>
     <tr>
@@ -140,12 +140,12 @@ Generic Query String Parameters
     <tr>
         <td>Health & Medical / Nursing</td>
         <td>
-            Alternative Medicine/Healing Arts, Dental Assisting, Dental Hygienist, Diagnostic & Treatment Technician, General Nursing, Gerontology, Health Information Technology/Records, Healthcare Administration, Human Services/Social Work, Medical Assistant, Medical Insurance Biller/Coder, Medical Office Assistant, Medical Transcriptionist, Nursing - Licensed Practical/Vocational Nurse Training (Certificate), Nursing - MSN, Nursing - Registered Nurse (AAS), Nursing - RN to BSN, Nursing Assistant (CNA), Personal Training / Nutrition, Pharmacy Technician/Assistant, Phlebotomy / Clinical Medical Lab. Technician, Physical Therapy & Rehabilitation, Psychology, Surgical Technologist, Ultrasound Technician, Veterinary Medicine, X-Ray/Radiologic Technician, Emergency Management, Nurse Education, Nurse Practitioner (RN Required), Public Health, Speech Pathology/Therapy,Entry-Level Healthcare Programs
+            Alternative Medicine/Healing Arts, Bachelors of Nursing (BSN), Dental Assisting, Dental Hygienist, Diagnostic & Treatment Technician, General Nursing, Gerontology, Global Health, Health Information Technology/Records, Healthcare Administration, Human Services/Social Work, Medical Assistant, Medical Insurance Biller/Coder, Medical Office Assistant, Medical Transcriptionist, Nursing - DNP, Nursing - Licensed Practical/Vocational Nurse Training (Certificate), Nursing - MSN, Nursing - Registered Nurse (AAS), Nursing - RN to BSN, Nursing Assistant (CNA), Personal Training / Nutrition, Pharmacy Technician/Assistant, Phlebotomy / Clinical Medical Lab. Technician, Physical Therapy & Rehabilitation, Psychology, Surgical Technologist, Ultrasound Technician, Veterinary Medicine, X-Ray/Radiologic Technician, Emergency Management, Nurse Education, Nurse Practitioner (RN Required), Public Health, Speech Pathology/Therapy,Entry-Level Healthcare Programs
         </td>
     </tr>
     <tr>
         <td>Legal Professions</td>
-        <td>Court Reporting, Legal Administrative Assistant, Legal Assistant/Paralegal, Legal Studies</td>
+        <td>Court Reporting, Juris Doctor, Legal Administrative Assistant, Legal Assistant/Paralegal, Legal Studies</td>
     </tr>
     <tr>
         <td>Massage Therapy & Healing Arts</td>
