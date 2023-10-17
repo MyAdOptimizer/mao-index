@@ -32,18 +32,18 @@ Response Format: JSON
 
 Generic Query String Parameters
 
-* LandingPageToken: `This Token will be provided by your account manager`
-* Device: `Desktop o Mobile`
-* ClientIP: `This is the user's IP`
-* CurrentURL: `Optional, the URL where listings will be displayed`
-* SourceID: `Optional, tracking variable`
-* ExtClickID: `Optional, tracking variable`
-* UserAgent: `Optional,  Mozilla/<version> (<system-information>) <platform> (<platform-details>) <extensions>`
-* CustomVar1: `Optional, tracking variable (Max length - 75)`
-* CustomVar2: `Optional, tracking variable (Max length - 75)`
-* CustomVar3: `Optional, tracking variable (Max length - 75)`
-* CustomVar4: `Optional, tracking variable (Max length - 75)`
-* CustomVar5: `Optional, tracking variable (Max length - 75)`
+* **LandingPageToken:** This Token will be provided by your account manager
+* **Device:** Desktop o Mobile
+* **ClientIP:** This is the user's IP
+* **CurrentURL:** Optional, the URL where listings will be displayed
+* **SourceID:** Optional, tracking variable
+* **ExtClickID:** Optional, tracking variable
+* **UserAgent:** Optional,  Mozilla/<version> (<system-information>) <platform> (<platform-details>) <extensions>
+* **CustomVar1:** Optional, tracking variable (Max length - 75)
+* **CustomVar2:** Optional, tracking variable (Max length - 75)
+* **CustomVar3:** Optional, tracking variable (Max length - 75)
+* **CustomVar4:** Optional, tracking variable (Max length - 75)
+* **CustomVar5:** Optional, tracking variable (Max length - 75)
 
 
 <h3>Specific Query String Parameters for <strong>Home Insurance</strong></h3>
@@ -77,13 +77,34 @@ Generic Query String Parameters
 ### API Response
 
 
-* destURL: `This is the Click URL. Please use the value from this field when a click is triggered.`
-* impressionUrl: `This is a call back URL so that MAO can track live impressions. If a listing is displayed in your result set, please trigger the impressionUrl of  that listing`
-* displayUrl: `This is the value from “Display URL” in the Campaign Ad Copy `
-* trackingURL: `This is a Image Pixel to track leads or form submits from Clicks. This is optional to implement, but it is used to provide traceability from a click to a lead submit`
-* revenue: `Actual payout per click based on bid modifiers.`
-* baseRevenue: `Base bid per click. It'll vary based on bid modifiers.`
-* bidModifierLog: `The log that shows  how the baseRevenue bid was modified.`
+* **destURL:** This is the Click URL. Please use the value from this field when a click is triggered.
+
+* **impressionUrl:** This is a call back URL so that MAO can track live impressions. If a listing is displayed in your result set, please trigger the impressionUrl of  that listing
+
+* **displayUrl:** This is the value from “Display URL” in the Campaign Ad Copy. 
+
+* **trackingURL:** This is a Image Pixel to track leads or form submits from Clicks. This is optional to implement, but it is used to provide traceability from a click to a lead submit.
+
+* **revenue:** Actual payout per click based on bid modifiers.
+
+* **baseRevenue:** Base bid per click. It'll vary based on bid modifiers.
+
+* **bidModifierLog:** The log that shows  how the baseRevenue bid was modified.
+
+* **campaignPhoneNumber:** `New!` A unique phone number assigned to the campaign to track and measure calls.
+
+* **callToAction:** `New!` Text displayed on a clickable button or element, encouraging users to initiate a phone call.
+
+* **adResultCallStatusID:** `New!` An ID representing the campaign's call status, where:
+
+| ID | Status                           | Allows calls |
+| :--| :------------------------------- | :------------|
+|1   | Click To Call is Active          | TRUE         |  
+|8   | Campaign is out of schedule      | FALSE        |
+|13  | Click to Call Monthly Cap Reached| FALSE        |
+|14  | Click to Call Daily Cap reached  | FALSE        |
+|15  | Click to Call is Off             | FALSE        |
+|16  | Campaign is off                  | FALSE        |
 
 Example response:
  ```javascript
@@ -120,7 +141,10 @@ Example response:
             ],
             "weight": 9.75,
             "statusId": 1,
-            "trackingURL": "https://api.myadoptizer.com/api/MAOLeadTracking?AdNetworkAPIID=27&LandingPageID=24&EventID=8b448cc4-da0b-4f70-b180-c0c883282a49&IP=128.1.1.1&AdCampaignID=168"
+            "trackingURL": "https://api.myadoptizer.com/api/MAOLeadTracking?AdNetworkAPIID=27&LandingPageID=24&EventID=8b448cc4-da0b-4f70-b180-c0c883282a49&IP=128.1.1.1&AdCampaignID=168",
+            "campaignPhoneNumber": +11234567890,
+            "callToAction": "Call Now",
+            "adResultCallStatusID": 1
         }
     ]
 }

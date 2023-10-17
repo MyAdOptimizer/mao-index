@@ -14,11 +14,11 @@
 
 ## Table of Contents
 
-* [Server Side](#server-side)
-    * [Request for Server Side](#request-for-server-side)
-    * [Specific Query String Parameters for Education](#specific-query-string-parameters-for-education)
-    * [API Response](#api-response)
-* [External Ad Networks Setup (OPTIONAL)](#external-ad-networks-setup-optional)
+- [Server Side](#server-side)
+  - [Request for Server Side](#request-for-server-side)
+  - [Specific Query String Parameters for Education](#specific-query-string-parameters-for-education)
+  - [API Response](#api-response)
+- [External Ad Networks Setup (OPTIONAL)](#external-ad-networks-setup-optional)
 
 ## Server Side
 
@@ -32,20 +32,19 @@ Response Format: JSON
 
 Generic Query String Parameters
 
-* LandingPageToken: `This Token will be provided by your account manager`
-* Device: `Desktop o Mobile`
-* ClientIP: `This is the user's IP`
-* CurrentURL: `Optional, the URL where listings will be displayed`
-* SourceID: `Optional, tracking variable to be used at your convenience. MAO will track it and can be used for custom reporting `
-* ExtClickID: `Optional, tracking variable to be used at your convenience. MAO will track it and can be used for custom reporting `
-* ExtSearchID: `Optional, tracking variable to be used at your convenience. MAO will track it and can be used for custom reporting `
-* UserAgent: `Optional,  Mozilla/<version> (<system-information>) <platform> (<platform-details>) <extensions>`
-* CustomVar1: `Optional, tracking variable (Max length - 75)`
-* CustomVar2: `Optional, tracking variable (Max length - 75)`
-* CustomVar3: `Optional, tracking variable (Max length - 75)`
-* CustomVar4: `Optional, tracking variable (Max length - 75)`
-* CustomVar5: `Optional, tracking variable (Max length - 75)`
-
+- **LandingPageToken:** This Token will be provided by your account manager
+- **Device:** Desktop o Mobile
+- **ClientIP:** This is the user's IP
+- **CurrentURL:** Optional, the URL where listings will be displayed
+- **SourceID:** Optional, tracking variable to be used at your convenience. MAO will track it and can be used for custom reporting 
+- **ExtClickID:** Optional, tracking variable to be used at your convenience. MAO will track it and can be used for custom reporting 
+- **ExtSearchID:** Optional, tracking variable to be used at your convenience. MAO will track it and can be used for custom reporting 
+- **UserAgent:** Optional,  Mozilla/<version> (<system-information>) <platform> (<platform-details>) <extensions>
+- **CustomVar1:** Optional, tracking variable (Max length - 75)
+- **CustomVar2:** Optional, tracking variable (Max length - 75)
+- **CustomVar3:** Optional, tracking variable (Max length - 75)
+- **CustomVar4:** Optional, tracking variable (Max length - 75)
+- **CustomVar5:** Optional, tracking variable (Max length - 75)
 
 <h3>Specific Query String Parameters for <strong>Education</strong></h3>
 
@@ -170,7 +169,7 @@ Generic Query String Parameters
     <tr>
         <td>DegreeLevel*</td>
         <td>string</td>
-        <td colspan=2>CERTIFICATE, ASSOCIATES, BACHELORS, MASTERS, DOCTORATE</td>
+        <td>CERTIFICATE, ASSOCIATES, BACHELORS, MASTERS, DOCTORATE</td>
     </tr>
     <tr>
         <td>HighSchoolGradYear</td>
@@ -244,21 +243,45 @@ Generic Query String Parameters
     </tr>
 </table>
 
-*Case Sensitive
+\*Case Sensitive
 
-** Program Ad Copy Allowed Values
+\*\* Program Ad Copy Allowed Values
 
 ±PII Fields
 
 ### API Response
 
-* destURL: `This is the Click URL. Please use the value from this field when a click is triggered.`
-* impressionUrl: `This is a call back URL so that MAO can track live impressions. If a listing is displayed in your result set, please trigger the impressionUrl of  that listing`
-* displayUrl: `This is the value from “Display URL” in the Campaign Ad Copy `
-* trackingURL: `This is a Image Pixel to track leads or form submits from Clicks. This is optional to implement, but it is used to provide traceability from a click to a lead submit`
-* revenue: `Actual payout per click based on bid modifiers.`
-* baseRevenue: `Base bid per click. It'll vary based on bid modifiers.`
-* bidModifierLog: `The log that shows  how the baseRevenue bid was modified.`
+- **destURL:** This is the Click URL. Please use the value from this field when a click is triggered.
+
+- **impressionUrl:** This is a call back URL so that MAO can track live impressions. If a listing is displayed in your result set, please trigger the impressionUrl of  that listing.
+
+- **displayUrl:** This is the value from “Display URL” in the Campaign Ad Copy.
+
+- **trackingURL:** This is a Image Pixel to track leads or form submits from Clicks. This is optional to implement, but it is used to provide traceability from a click to a lead submit.
+
+- **revenue:** Actual payout per click based on bid modifiers.
+
+- **baseRevenue:** Base bid per click. It'll vary based on bid modifiers.
+
+- **bidModifierLog:** The log that shows  how the baseRevenue bid was modified.
+
+- **campaignPhoneNumber:** `New!` A unique phone number assigned to the campaign to track and measure calls.
+
+- **callToAction:** `New!` Text displayed on a clickable button or element, encouraging users to initiate a phone call.
+
+- **adResultCallStatusID:** `New!` An ID representing the campaign's call status, where:
+
+| ID  | Status                            | Allows calls |
+| :-- | :-------------------------------- | :----------- |
+| 1   | Click To Call is Active           | TRUE         |
+| 8   | Campaign is out of schedule       | FALSE        |
+| 13  | Click to Call Monthly Cap Reached | FALSE        |
+| 14  | Click to Call Daily Cap reached   | FALSE        |
+| 15  | Click to Call is Off              | FALSE        |
+| 16  | Campaign is off                   | FALSE        |
+
+> [!NOTE]
+> When the campaign is inactive, the following message is broadcast: I'm sorry, but our campaign is currently inactive. Please try again later
 
 Example response:
 
@@ -292,7 +315,7 @@ Example response:
                null
             ],
             "constraints":[
-               
+
             ],
             "location":"",
             "advertiserName":"",
@@ -318,7 +341,10 @@ Example response:
          "weight":34.5,
          "statusId":1,
          "trackingURL":"https://api.myadoptimizer.com/api/MAOLeadTracking?AdNetworkAPIID=44&LandingPageID=43&EventID=acbb214a-e69e-4394-bea0-3b48f6997cca&IP=123.32.32.123&AdCampaignID=458",
-         "displayUrl":"http://www.floridacareercollege.com/business-office-administration"
+         "displayUrl":"http://www.floridacareercollege.com/business-office-administration",,
+        "campaignPhoneNumber": +11234567890,
+        "callToAction": "Call Now",
+        "adResultCallStatusID": 1
       }
    ]
 }
@@ -327,19 +353,25 @@ Example response:
 ## External Ad Networks Setup OPTIONAL
 
 To integrate the following Ad Networks, MAO will need the following values.
+
 ```diff
 - Please provide YOUR publisher source values for each ad network below.
 ```
+
 Media Alpha
-* `api_token` 
-* `placement_id`
+
+- `api_token`
+- `placement_id`
 
 Transparent.ly
-* `pubcampaignId`
+
+- `pubcampaignId`
 
 Clicks.NET
-* `Affcamid`
-* `Key`
+
+- `Affcamid`
+- `Key`
 
 Quinstreet
-* `Src`
+
+- `Src`
