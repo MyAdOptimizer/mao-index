@@ -2,7 +2,7 @@
   <a href="https://myadoptimizer.com/">
     <img src="https://myadoptimizer.com/img/logo-blk.svg" alt="Logo" height="80">
   </a>
-  <h3 align="center">MyAdOptimizer.com Client Side Integration Doc | Auto Insurance</h3>
+  <h3 align="center">MyAdOptimizer.com Client Side Integration Doc | Personal Loans</h3>
   <p align="center">
     Learn how to integrate the <strong>MAO Client Side</strong> by following these steps
     <br />
@@ -16,7 +16,7 @@
 
 * [Client Side](#client-side)
     * [Setup](#setup)
-    * [Specific Query String Parameters for Auto Insurance](#specific-query-string-parameters-for-auto-insurance)
+    * [Specific Query String Parameters for Personal Loans](#specific-query-string-parameters-for-personal-loans)
         - [LocalStorage integration](#LocalStorage-Integration)
 * [External Ad Networks Setup (OPTIONAL)](#external-ad-networks-setup-optional)
 
@@ -50,39 +50,38 @@ Generic Query String Parameters
 * CustomVar5: `Optional, tracking variable (Max length - 75)`
 
 
-<h3>Specific Query String Parameters for <strong>Auto Insurance</strong></h3>
+<h3>Specific Query String Parameters for <strong>Personal Loans</strong></h3>
 
-| Params Names | Data Type | Allowed Values |
-| :------------------------ | :-------: | :------------- |
-| ZipCode*                   | string    |  5 char US zip code             |
+| Params Names               | Data Type | Allowed Values |
+| :------------------------- | :-------: | :------------- |
+| ZipCode*                   | string    | 5 char US zip code              |
 | State*                     | string    | 2 char US state code (Uppercase) |
-| Accidents*                 | string    | None,1,2,3+ |
-| BusinessOwner*             | string    | Yes, No |
-| CreditScore*               | string    | Excellent, Good, Fair, Poor |
-| CurrentInsurer*            | string    | Allstate, GEICO, Farmers, Liberty Mutual, Progressive, Nationwide, State Farm, Travelers, USAA, Other |
-| Drivers*                   | string    | 1,2,3+ |
-| DUI*                       | string    | Yes, No |
-| Gender*                    | string    | Male, Female, Other |
+| LoanPurpose*               | string    | Immediate Bills/Expenses, Credit Card Refinance, Debt Consolidation, Home Improvement, Other, Auto Vehicle Expense, Medical/Dental Bills, Moving/Relocation, Business Expenses, Taxes, Special Event, Vacation |
+| BorrowAmount*              | int       | 0-100000000 |
+| BorrowingTimeline*         | string    | Within 48 hours, Within 2 weeks, Within 1 month, Unsure |
 | HomeOwner*                 | string    | Yes, No |
-| InsuredStatus*             | string    | Yes, No |
-| Married*                  | string    | Yes, No |
+| CreditScore*               | string    | Excellent, Good, Fair, Poor, Subprime |
+| Gender*                    | string    | Male, Female, Other |
+| EmploymentStatus*          | string    | Employed, Employed-Part-Time, Self-Employed, Not Employed, Retired |
+| CoBorrower*                | string    | Yes, No |
+| AnnualPreTaxIncome*        | int       | 0-100000000 |
+| MonthlyPreTaxIncome*       | int       | 0-100000000 |
+| DebtAmount*                | int       | 0-100000000 |
+| Married*                   | string    | Yes, No |
 | MilitaryStatus*            | string    | Yes, No |
-| SR22*                      | string    | Yes, No |
-| VehicleMake*               | string    | Acura, Audi, BMW, Buick, Cadillac, Chevrolet, Chrysler ,Dodge, Ford ,GMC, Honda, Hyundai, Infiniti, Isuzu, Jaguar, Jeep, Kia, Lexus, Mazda, Mercedes, Mercury, Nissan, Porsche, Subaru, Toyota, Volvo, Other |
-| VehicleYear               | integer   | 2024,2023,2022,2021,2020,2019,2018,2017,2016,2015,2014,2013,2012,2011,2010,2009,2008,2007, 2006,2005,2004,2003,2002,2001,2000,1999,1998,1997,1996,1995,1994,1993,1992, 1991, 1990 |
-| VehiclesToInsure          | integer   | 1,2,3 |
-| Age                        | integer  | 1 - 99 |
+| Age                        | integer   | 1 - 99 |
 | FName ±                    | string    |  |
-| LName ±                   | string    |  |
+| LName ±                    | string    |  |
 | Email ±                    | string    |  |
 | Phone ±                    | string    |  |
 | Address ±                  | string    |  |
 | City ±                     | string    |  |
-| MediaChannel                | string    | Social, Facebook, Native, Email, Display, SEM, SEO, SMS, Push, Affiliate, ChannelA, ChannelB, ChannelC, ChannelD, ChannelE |
+| DOB ±                      | string    | yyyy-mm-dd |
+| MediaChannel               | string    | Social, Facebook, Native, Email, Display, SEM, SEO, SMS, Push, Affiliate, ChannelA, ChannelB, ChannelC, ChannelD, ChannelE |
 
 *Case Sensitive
 
-±PII Fields
+±PII Fields - These values are not constraints and will not be evaluated by MAO
 
 ## LocalStorage Integration
 
@@ -130,16 +129,3 @@ To integrate the following Ad Networks, MAO will need the following values.
 ```diff
 - Please provide YOUR publisher source values for each ad network below.
 ```
-Media Alpha
-* `api_token` 
-* `placement_id`
-
-Transparent.ly
-* `pubcampaignId`
-
-Clicks.NET
-* `Affcamid`
-* `Key`
-
-Quinstreet
-* `Src`

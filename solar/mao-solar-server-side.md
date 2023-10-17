@@ -70,12 +70,20 @@ Generic Query String Parameters
 ### API Response
 
 * **destURL:** This is the Click URL. Please use the value from this field when a click is triggered.
-* **impressionUrl:** This is a call back URL so that MAO can track live impressions. If a listing is displayed in your result set, please trigger the impressionUrl of  that listing
-* **displayUrl:** `This is the value from “Display URL” in the Campaign Ad Copy
-* **trackingURL:** `This is a Image Pixel to track leads or form submits from Clicks. This is optional to implement, but it is used to provide traceability from a click to a lead submit
+
+* **impressionUrl:** This is a call back URL so that MAO can track live impressions. If a listing is displayed in your result set, please trigger the impressionUrl of  that listing.
+
+* **displayUrl:** `This is the value from “Display URL” in the Campaign Ad Copy.
+
+* **trackingURL:** `This is a Image Pixel to track leads or form submits from Clicks. This is optional to implement, but it is used to provide traceability from a click to a lead submit.
+
 * **revenue:** Actual payout per click based on bid modifiers.
+
 * **baseRevenue:** Base bid per click. It'll vary based on bid modifiers.
+
 * **bidModifierLog:** The log that shows  how the baseRevenue bid was modified.
+
+* **advertiserName:** The name of the advertiser - The ID of the advertiser.
 
 * **campaignPhoneNumber:** `New!` A unique phone number assigned to the campaign to track and measure calls.
 
@@ -106,6 +114,7 @@ Example response:
             "sourceID": null,
             "extClickID": null,
             "advertiserId": "53",
+            "advertiserName": "Advertiser Name 01 - 486",
             "displayName": "Save time. Save paperwork. Save Dollars.",
             "headline": "Car insurance can be so simple. And so affordable.&lt;br /&gt;We&#39;re making insurance surprisingly painless&lt;br /&gt;Click for quote today and save big!&lt;br /&gt;",
             "blurbs": [

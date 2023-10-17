@@ -80,9 +80,10 @@ https://api.myadoptimizer.com/api/AdRptAPI?UserToken= {{ User token provided }} 
 | :----------- | :-------- | :--------------------------------------------------------------------------------------------------------------------------------- |
 | UserToken\*  | String    | XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX                                                                                               |
 | dcReport\*   | Boolean   | true                                                                                                                               |
-| VerticalID\* | Integer   | - 1 / Refinace <br> - 2 / Purchase <br> - 8 / Auto Insurance <br> - 11 / Education <br> - 13 / Medicare <br> - 14 / Home Insurance |
+| VerticalID\* | Integer   | - 1 / Refinace <br> - 2 / Purchase <br> - 8 / Auto Insurance <br> - 11 / Education <br> - 13 / Medicare <br> - 14 / Home Insurance <br> - 15 / Solar <br> - 16 / Personal Loans <br> - 17 / Home Services <br> |
 | StartDate\*  | Date      | yyyy-MM-dd                                                                                                                         |
-| EndDate\*    | Date      | yyyy-MM-dd                                                                                                                         |
+| EndDate\*    | Date      | yyyy-MM-dd    
+| Clicks       | INT       | 1 (Clicks Only) 0 (Clicks & Impressions) ||
 
 \*<b>Case sensitive & required values</b>
 

@@ -61,7 +61,7 @@ Generic Query String Parameters
 | Married*                   | string | Married, Single |
 | PreCondition*       | string | Yes, No |
 | TobaccoUse*         | string | Yes, No |
-| Age                | integer | 1-99 |
+| Age                | integer | 1 - 99 |
 | MediaChannel                | string    | Social, Facebook, Native, Email, Display, SEM, SEO, SMS, Push, Affiliate, ChannelA, ChannelB, ChannelC, ChannelD, ChannelE |
 | FName ±                    | string    |  |
 | LName ±                    | string    |  |
@@ -90,6 +90,8 @@ Generic Query String Parameters
 * **baseRevenue:** Base bid per click. It'll vary based on bid modifiers.
 
 * **bidModifierLog:** The log that shows  how the baseRevenue bid was modified.
+
+* **advertiserName:** The name of the advertiser - The ID of the advertiser
 
 * **campaignPhoneNumber:** `New!` A unique phone number assigned to the campaign to track and measure calls.
 
@@ -120,6 +122,7 @@ Example response:
             "sourceID": null,
             "extClickID": null,
             "advertiserId": "111",
+            "advertiserName": "TruStage - 970",
             "displayName": "Get Better Home Insurance Rates!",
             "headline": "Homeowners are shocked at this Genius Tip &lt;br /&gt;Compare 3+ Rates at Once for Max Savings!&lt;br /&gt;See if you Qualify for Lower Home Insurance&lt;br /&gt;Save Today with a Fast Free Quote!",
             "blurbs": [

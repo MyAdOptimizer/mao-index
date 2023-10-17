@@ -46,7 +46,7 @@ Generic Query String Parameters
 * **CustomVar5:** Optional, tracking variable (Max length - 75)
 
 
-<h3>Specific Query String Parameters for <strong>Home Insurance</strong></h3>
+<h3>Specific Query String Parameters for <strong>Mortgage Refinance</strong> </h3>
 
 | Query String Params Names | Data Type | Allowed Values |
 | :------------------------ | :-------: | :------------- |
@@ -75,12 +75,20 @@ Generic Query String Parameters
 ### API Response
 
 * **destURL:** This is the Click URL. Please use the value from this field when a click is triggered.
-* **impressionUrl:** This is a call back URL so that MAO can track live impressions. If a listing is displayed in your result set, please trigger the impressionUrl of  that listing
-* **displayUrl:** This is the value from “Display URL” in the Campaign Ad Copy
-* **trackingURL:** This is a Image Pixel to track leads or form submits from Clicks. This is optional to implement, but it is used to provide traceability from a click to a lead submit
+
+* **impressionUrl:** This is a call back URL so that MAO can track live impressions. If a listing is displayed in your result set, please trigger the impressionUrl of  that listing.
+
+* **displayUrl:** This is the value from “Display URL” in the Campaign Ad Copy.
+
+* **trackingURL:** This is a Image Pixel to track leads or form submits from Clicks. This is optional to implement, but it is used to provide traceability from a click to a lead submit.
+
 * **revenue:** Actual payout per click based on bid modifiers.
+
 * **baseRevenue:** Base bid per click. It'll vary based on bid modifiers.
+
 * **bidModifierLog:** The log that shows  how the baseRevenue bid was modified.
+
+* **advertiserName:** The name of the advertiser - The ID of the advertiser.
 
 * **campaignPhoneNumber:** `New!` A unique phone number assigned to the campaign to track and measure calls.
 
@@ -111,6 +119,7 @@ Example response:
             "sourceID": null,
             "extClickID": null,
             "advertiserId": "34",
+            "advertiserName": "LendingTree - 1",
             "displayName": "Save On Your Mortgage Today",
             "headline": "Get Offers Customized Only to You From 2.14% APR&lt;br /&gt;Take Advantage of Historic Low Rates. Can&#39;t Hurt to Look&lt;br /&gt;Hundreds of Lenders Available&lt;br /&gt;Only Takes 2 Minutes to Check",
             "blurbs": [

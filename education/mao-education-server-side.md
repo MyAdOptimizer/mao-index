@@ -73,7 +73,7 @@ Generic Query String Parameters
         <td>AreaOfStudy* </td>
         <td>String</td>
         <td colspan=2>
-            Arts / Design / Fashion, Business, Communication & Multimedia, Computers & IT, Cosmetology & Beauty, Criminal Justice & Law Enforcement, Culinary Arts & Hospitality, Education & Teaching, General Studies / Undecided, Health & Medical / Nursing, Legal
+            Arts / Design / Fashion, Bootcamp, Business, Communication & Multimedia, Computers & IT, Cosmetology & Beauty, Criminal Justice & Law Enforcement, Culinary Arts & Hospitality, Education & Teaching, General Studies / Undecided, Health & Medical / Nursing, Legal
             Professions, Massage Therapy & Healing Arts, Political Science, Psychology & Social Work, Religious Studies,Trades & Careers, Counseling
         </td>
     </tr>
@@ -84,10 +84,16 @@ Generic Query String Parameters
         <td>Design & Visual Communications, Fashion/Apparel Design, Film and Theater, Graphic Design, Industrial Design, Interior Design, Photography, Visual Arts</td>
     </tr>
     <tr>
+        <td>Bootcamp</td>
+        <td>
+            Data Analytics, Cyber Security, Coding, Software Engineering, General boot camp programs, Project Management, FinTech, Digital Marketing, UI-UX, Web Development
+        </td>
+    </tr>
+    <tr>
         <td>Business</td>
         <td>
             Accounting & Related Services, Administrative & Secretarial Services, Business Communications, E-Commerce/Business, Economics, Entrepreneurship & Small Business, Fashion and Apparel, Finance, General Business, Green & Sustainable Management, Hospitality
-            & Restaurants, Human Resources, Information Systems Management, International, Business, Management, Marketing, Property Management / Real Estate, Public & Non-Profit Administration, Retail & Sales, Supply Chain Management, Business Administration, Business Intelligence, Organizational Leadership, Project Management, Taxation
+            & Restaurants, Human Resources, Information Systems Management, International, Business, Management, Marketing, Property Management / Real Estate, Public & Non-Profit Administration, Public Relations, Retail & Sales, Supply Chain Management, Business Administration, Business Analytics, Business Intelligence, Organizational Leadership, Project Management, Taxation
         </td>
     </tr>
     <tr>
@@ -100,7 +106,7 @@ Generic Query String Parameters
     <tr>
         <td>Computers & IT</td>
         <td>
-            Computer Science, Computer Support Services, Computer Systems Security, Networking, Software Development, Systems Administration, Telecommunications, Web Design and Internet, Analytics & Data Science, Engineering, Information & Library Sciences, Information Technology/Systems
+            Computer Science, Computer Support Services, Computer Systems Security, Networking, Software Development, Systems Administration, Telecommunications, Web Design and Internet, Analytics & Data Science, Engineering, Information & Library Sciences, Information Technology/Systems, Product Manager
         </td>
     </tr>
     <tr>
@@ -128,17 +134,17 @@ Generic Query String Parameters
     </tr>
     <tr>
         <td>General Studies / Undecided</td>
-        <td>General Studies, Liberal Arts, Undecided</td>
+        <td>General Studies, History, Liberal Arts, Undecided, Writing</td>
     </tr>
     <tr>
         <td>Health & Medical / Nursing</td>
         <td>
-            Alternative Medicine/Healing Arts, Dental Assisting, Dental Hygienist, Diagnostic & Treatment Technician, Gerontology, Health Information Technology/Records, Healthcare Administration, Human Services/Social Work, Medical Assistant, Medical Insurance Biller/Coder, Medical Office Assistant, Medical Transcriptionist, Nursing - Licensed Practical/Vocational Nurse Training (Certificate), Nursing - MSN, Nursing - Registered Nurse (AAS), Nursing - RN to BSN, Nursing Assistant (CNA), Personal Training / Nutrition, Pharmacy Technician/Assistant, Phlebotomy / Clinical Medical Lab. Technician, Physical Therapy & Rehabilitation, Psychology, Surgical Technologist, Ultrasound Technician, Veterinary Medicine, X-Ray/Radiologic Technician, Emergency Management, Nurse Education, Nurse Practitioner (RN Required), Public Health, Speech Pathology/Therapy
+            Alternative Medicine/Healing Arts, Bachelors of Nursing (BSN), Dental Assisting, Dental Hygienist, Diagnostic & Treatment Technician, General Nursing, Gerontology, Global Health, Health Information Technology/Records, Healthcare Administration, Human Services/Social Work, Medical Assistant, Medical Insurance Biller/Coder, Medical Office Assistant, Medical Transcriptionist, Nursing - DNP, Nursing - Licensed Practical/Vocational Nurse Training (Certificate), Nursing - MSN, Nursing - Registered Nurse (AAS), Nursing - RN to BSN, Nursing Assistant (CNA), Personal Training / Nutrition, Pharmacy Technician/Assistant, Phlebotomy / Clinical Medical Lab. Technician, Physical Therapy & Rehabilitation, Psychology, Surgical Technologist, Ultrasound Technician, Veterinary Medicine, X-Ray/Radiologic Technician, Emergency Management, Nurse Education, Nurse Practitioner (RN Required), Public Health, Speech Pathology/Therapy,Entry-Level Healthcare Programs
         </td>
     </tr>
     <tr>
         <td>Legal Professions</td>
-        <td>Court Reporting, Legal Administrative Assistant, Legal Assistant/Paralegal, Legal Studies</td>
+        <td>Court Reporting, Juris Doctor, Legal Administrative Assistant, Legal Assistant/Paralegal, Legal Studies</td>
     </tr>
     <tr>
         <td>Massage Therapy & Healing Arts</td>
@@ -166,6 +172,8 @@ Generic Query String Parameters
         <td>Counseling</td>
         <td>Addictions & Recovery, Counseling, Family Counseling, Mental Health Counseling, School Counseling</td>
     </tr>
+<tr>
+    </tr>
     <tr>
         <td>DegreeLevel*</td>
         <td>string</td>
@@ -190,6 +198,11 @@ Generic Query String Parameters
         <td>LikelihoodToEnroll*</td>
         <td>string</td>
         <td colspan=2>NOT_LIKELY, SOMEWHAT_LIKELY, VERY_LIKELY</td>
+    </tr>
+    <tr>
+        <td>MediaChannel*</td>
+        <td>string</td>
+        <td colspan=2>Social, Facebook, Native, Email, Display, SEM, SEO, SMS, Push, Affiliate, ChannelA, ChannelB, ChannelC, ChannelD, ChannelE</td>
     </tr>
     <tr>
         <td>MilitaryStatus*</td>
@@ -265,6 +278,8 @@ Generic Query String Parameters
 
 - **bidModifierLog:** The log that shows  how the baseRevenue bid was modified.
 
+* **advertiserName:** The name of the advertiser - The ID of the advertiser
+
 - **campaignPhoneNumber:** `New!` A unique phone number assigned to the campaign to track and measure calls.
 
 - **callToAction:** `New!` Text displayed on a clickable button or element, encouraging users to initiate a phone call.
@@ -298,6 +313,7 @@ Example response:
          "sourceID":null,
          "extClickID":"testClickID",
          "advertiserId":"409",
+         "advertiserName": "Advertiser Name 01 - 486",
          "displayName":"Earn A Business Office Administration Diploma - Start Building A Future You Can Be Proud Of",
          "adCopyVersion":1,
          "headline":"Learn valuable technical skills like - Microsoft Word&#174;, Microsoft Excel&#174;, Microsoft PowerPoint&#174; and more!&lt;br /&gt;Prepare for career opportunities like: Administrative Assistant, Secretary, Customer Service Rep, and more!&lt;br /&gt;Fast: Prepare for a career in as few as 10 months&lt;br /&gt;Convenient: Daytime and evening classes available",
@@ -341,7 +357,7 @@ Example response:
          "weight":34.5,
          "statusId":1,
          "trackingURL":"https://api.myadoptimizer.com/api/MAOLeadTracking?AdNetworkAPIID=44&LandingPageID=43&EventID=acbb214a-e69e-4394-bea0-3b48f6997cca&IP=123.32.32.123&AdCampaignID=458",
-         "displayUrl":"http://www.floridacareercollege.com/business-office-administration",,
+         "displayUrl":"http://www.floridacareercollege.com/business-office-administration",
         "campaignPhoneNumber": +11234567890,
         "callToAction": "Call Now",
         "adResultCallStatusID": 1

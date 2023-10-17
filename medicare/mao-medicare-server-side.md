@@ -57,7 +57,7 @@ Generic Query String Parameters
 | MilitaryStatus*     | string | Yes, No |
 | PreCondition*       | string | Yes, No |
 | TobaccoUse*         | string | Yes, No |
-| Age                | integer | 1-99 |
+| Age                | integer | 1 - 99.  NOTE: If you wish to separate consumers who are >64.5 "Aging in" traffic from consumers who are <64.5 you'll need to collect DOB and use it to determine eligibility.  You can then pass consumers who are >64.5 as "65" and consumers who are <64.5 as "64". |
 | MediaChannel                | string    | Social, Facebook, Native, Email, Display, SEM, SEO, SMS, Push, Affiliate, ChannelA, ChannelB, ChannelC, ChannelD, ChannelE |
 | FName ±                    | string    |  |
 | LName ±                    | string    |  |
@@ -85,6 +85,8 @@ Generic Query String Parameters
 * **baseRevenue:** Base bid per click. It'll vary based on bid modifiers.
 
 * **bidModifierLog:** The log that shows  how the baseRevenue bid was modified.
+
+* **advertiserName:** The name of the advertiser - The ID of the advertiser
 
 * **campaignPhoneNumber:** `New!` A unique phone number assigned to the campaign to track and measure calls.
 
@@ -116,6 +118,7 @@ Example response:
             "sourceID": null,
             "extClickID": null,
             "advertiserId": "152",
+            "advertiserName": "Spring Venture Group - 470",
             "displayName": "2020 Health Plans from $59/mo",
             "headline": "See Instant Rate Comparison<br />Compare Affordable Coverage Online <br />Choose from PPO, HMO, & Short Term Plans<br />Top Rated Plans for Families & Individuals",
             "blurbs": [

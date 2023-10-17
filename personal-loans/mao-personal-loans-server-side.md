@@ -2,7 +2,7 @@
   <a href="https://myadoptimizer.com/">
     <img src="https://myadoptimizer.com/img/logo-blk.svg" alt="Logo" height="80">
   </a>
-  <h3 align="center">MyAdOptimizer.com Server API Integration Doc | Auto Insurance</h3>
+  <h3 align="center">MyAdOptimizer.com Server API Integration Doc | Personal Loans</h3>
   <p align="center">
     Learn how to integrate the <strong>MAO Server API</strong> by following these steps
     <br />
@@ -16,7 +16,7 @@
 
 * [Server Side](#server-side)
     * [Request for Server Side](#request-for-server-side)
-    * [Specific Query String Parameters for Auto Insurance](#specific-query-string-parameters-for-auto-insurance)
+    * [Specific Query String Parameters for Personal Loans](#specific-query-string-parameters-for-personal-loans)
     * [API Response](#api-response)
 * [External Ad Networks Setup (OPTIONAL)](#external-ad-networks-setup-optional)
 
@@ -46,49 +46,48 @@ Generic Query String Parameters
 * **CustomVar5:** Optional, tracking variable (Max length - 75)
 
 
-<h3>Specific Query String Parameters for <strong>Auto Insurance</strong></h3>
+<h3>Specific Query String Parameters for <strong>Personal Loans</strong></h3>
 
 | Query String Params Names | Data Type | Allowed Values |
 | :------------------------ | :-------: | :------------- |
 | ZipCode*                   | string    | 5 char US zip code              |
 | State*                     | string    | 2 char US state code (Uppercase) |
-| Accidents*                 | string    | None,1,2,3+ |
-| BusinessOwner*             | string    | Yes, No |
-| CreditScore*               | string    | Excellent, Good, Fair, Poor |
-| CurrentInsurer*            | string    | Allstate, GEICO, Farmers, Liberty Mutual, Progressive, Nationwide, State Farm, Travelers, USAA, Other |
-| Drivers*                   | string    | 1,2,3+ |
-| DUI*                       | string    | Yes, No |
-| Gender*                    | string    | Male, Female, Other |
+| LoanPurpose*               | string    | Immediate Bills/Expenses, Credit Card Refinance, Debt Consolidation, Home Improvement, Other, Auto Vehicle Expense, Medical/Dental Bills, Moving/Relocation, Business Expenses, Taxes, Special Event, Vacation |
+| BorrowAmount*              | int       | 0-100000000 |
+| BorrowingTimeline*         | string    | Within 48 hours, Within 2 weeks, Within 1 month, Unsure |
 | HomeOwner*                 | string    | Yes, No |
-| InsuredStatus*             | string    | Yes, No |
+| CreditScore*               | string    | Excellent, Good, Fair, Poor, Subprime |
+| Gender*                    | string    | Male, Female, Other |
+| EmploymentStatus*          | string    | Employed, Employed-Part-Time, Self-Employed, Not Employed, Retired |
+| CoBorrower*                | string    | Yes, No |
+| AnnualPreTaxIncome*        | int       | 0-100000000 |
+| MonthlyPreTaxIncome*       | int       | 0-100000000 |
+| DebtAmount*                | int       | 0-100000000 |
 | Married*                   | string    | Yes, No |
 | MilitaryStatus*            | string    | Yes, No |
-| SR22*                      | string    | Yes, No |
-| VehicleMake*               | string    | Acura, Audi, BMW, Buick, Cadillac, Chevrolet, Chrysler ,Dodge, Ford ,GMC, Honda, Hyundai, Infiniti, Isuzu, Jaguar, Jeep, Kia, Lexus, Mazda, Mercedes, Mercury, Nissan, Porsche, Subaru, Toyota, Volvo, Other |
-| VehicleYear               | integer   | 2024,2023,2022,2021,2020,2019,2018,2017,2016,2015,2014,2013,2012,2011,2010,2009,2008,2007, 2006,2005,2004,2003,2002,2001,2000,1999,1998,1997,1996,1995,1994,1993,1992, 1991, 1990 |
-| VehiclesToInsure          | integer   | 1,2,3 |
-| Age                       | integer   | 1 - 99 |
+| Age                        | integer   | 1 - 99 |
 | FName ±                    | string    |  |
-| LName ±                   | string    |  |
+| LName ±                    | string    |  |
 | Email ±                    | string    |  |
 | Phone ±                    | string    |  |
 | Address ±                  | string    |  |
 | City ±                     | string    |  |
-| MediaChannel                | string    | Social, Facebook, Native, Email, Display, SEM, SEO, SMS, Push, Affiliate, ChannelA, ChannelB, ChannelC, ChannelD, ChannelE |
+| DOB ±                      | string    | yyyy-mm-dd |
+| MediaChannel               | string    | Social, Facebook, Native, Email, Display, SEM, SEO, SMS, Push, Affiliate, ChannelA, ChannelB, ChannelC, ChannelD, ChannelE |
 
 *Case Sensitive
 
-±PII Fields
+±PII Fields - These values are not constraints and will not be evaluated by MAO
 
 ### API Response
 
 * **destURL:** This is the Click URL. Please use the value from this field when a click is triggered.
 
-* **impressionUrl:** This is a call back URL so that MAO can track live impressions. If a listing is displayed in your result set, please trigger the impressionUrl of  that listing 
+* **impressionUrl:** This is a call back URL so that MAO can track live impressions. If a listing is displayed in your result set, please trigger the impressionUrl of  that listing.
 
-* **displayUrl:** This is the value from “Display URL” in the Campaign Ad Copy
+* **displayUrl:** This is the value from “Display URL” in the Campaign Ad Copy.
 
-* **trackingURL:** This is a Image Pixel to track leads or form submits from Clicks. This is optional to implement, but it is used to provide traceability from a click to a lead submit
+* **trackingURL:** This is a Image Pixel to track leads or form submits from Clicks. This is optional to implement, but it is used to provide traceability from a click to a lead submit.
 
 * **revenue:** Actual payout per click based on bid modifiers.
 
@@ -96,7 +95,7 @@ Generic Query String Parameters
 
 * **bidModifierLog:** The log that shows  how the baseRevenue bid was modified.
 
-* **advertiserName:** The name of the advertiser - The ID of the advertiser
+* **advertiserName:** The name of the advertiser - The ID of the advertiser.
 
 * **campaignPhoneNumber:** `New!` A unique phone number assigned to the campaign to track and measure calls.
 
@@ -113,10 +112,6 @@ Generic Query String Parameters
 |15  | Click to Call is Off             | FALSE        |
 |16  | Campaign is off                  | FALSE        |
 
-> [!NOTE]
-> When the campaign is inactive, the following message is broadcast: I'm sorry, but our campaign is currently inactive. Please try again later
-
-
 Example response: 
  ```javascript
 {
@@ -125,18 +120,18 @@ Example response:
     "items": [
         {
             "itemId": "159",
-            "brandName": "esurance",
+            "brandName": "personalloans",
             "networkSort": 1,
             "requestDuration": 374,
             "sourceID": null,
             "extClickID": null,
             "advertiserId": "53",
-            "advertiserName": "Assurance IQ - 249",
+            "advertiserName": "ePowerClick - 1051",
             "displayName": "Save time. Save paperwork. Save Dollars.",
-            "headline": "Car insurance can be so simple. And so affordable.&lt;br /&gt;We&#39;re making insurance surprisingly painless&lt;br /&gt;Click for quote today and save big!&lt;br /&gt;",
+            "headline": "Personal loans made simple. And so affordable.",
             "blurbs": [
-                "Car insurance can be so simple. And so affordable.",
-                "We're making insurance surprisingly painless",
+                "Personal loans can be so simple. And so affordable.",
+                "We're making loans surprisingly painless",
                 "Click for quote today and save big!"
             ],
             "imageUrl": "https://cdn.myadoptimizer.com/maojsfiles/images/LogoAdvertiser_000000_20f8cac8-121a-4d17-9a26-24d744b8b75b.JPG",
@@ -167,16 +162,3 @@ To integrate the following Ad Networks, MAO will need the following values.
 ```diff
 - Please provide YOUR publisher source values for each ad network below.
 ```
-Media Alpha
-* `api_token` 
-* `placement_id`
-
-Transparent.ly
-* `pubcampaignId`
-
-Clicks.NET
-* `Affcamid`
-* `Key`
-
-Quinstreet
-* `Src`

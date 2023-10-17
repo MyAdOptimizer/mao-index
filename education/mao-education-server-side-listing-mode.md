@@ -74,21 +74,27 @@ Generic Query String Parameters
         <td>AreaOfStudy* </td>
         <td>String</td>
         <td colspan=2>
-            Arts / Design / Fashion, Business, Communication & Multimedia, Computers & IT, Cosmetology & Beauty, Criminal Justice & Law Enforcement, Culinary Arts & Hospitality, Education & Teaching, General Studies / Undecided, Health & Medical / Nursing, Legal
+            Arts / Design / Fashion, Bootcamp, Business, Communication & Multimedia, Computers & IT, Cosmetology & Beauty, Criminal Justice & Law Enforcement, Culinary Arts & Hospitality, Education & Teaching, General Studies / Undecided, Health & Medical / Nursing, Legal
             Professions, Massage Therapy & Healing Arts, Political Science, Psychology & Social Work, Religious Studies,Trades & Careers, Counseling, ANY
         </td>
     </tr>
     <tr>
-        <td rowspan=18> Concentration*</td>
-        <td rowspan=18> string </td>
+        <td rowspan=19> Concentration*</td>
+        <td rowspan=19> string </td>
         <td> Arts / Design / Fashion </td>
         <td>Design & Visual Communications, Fashion/Apparel Design, Film and Theater, Graphic Design, Industrial Design, Interior Design, Photography, Visual Arts, ANY</td>
+    </tr>
+    <tr>
+        <td>Bootcamp</td>
+        <td>
+            Data Analytics, Cyber Security, Coding, Software Engineering, General boot camp programs, Project Management, FinTech, Digital Marketing, UI-UX, Web Development, ANY
+        </td>
     </tr>
     <tr>
         <td>Business</td>
         <td>
             Accounting & Related Services, Administrative & Secretarial Services, Business Communications, E-Commerce/Business, Economics, Entrepreneurship & Small Business, Fashion and Apparel, Finance, General Business, Green & Sustainable Management, Hospitality
-            & Restaurants, Human Resources, Information Systems Management, International, Business, Management, Marketing, Property Management / Real Estate, Public & Non-Profit Administration, Retail & Sales, Supply Chain Management, Business Administration, Business Intelligence, Organizational Leadership, Project Management, Taxation, ANY
+            & Restaurants, Human Resources, Information Systems Management, International, Business, Management, Marketing, Property Management / Real Estate, Public & Non-Profit Administration, Public Relations, Retail & Sales, Supply Chain Management, Business Administration, Business Analytics, Business Intelligence, Organizational Leadership, Project Management, Taxation, ANY
         </td>
     </tr>
     <tr>
@@ -101,7 +107,7 @@ Generic Query String Parameters
     <tr>
         <td>Computers & IT</td>
         <td>
-            Computer Science, Computer Support Services, Computer Systems Security, Networking, Software Development, Systems Administration, Telecommunications, Web Design and Internet, Analytics & Data Science, Engineering, Information & Library Sciences, Information Technology/Systems, ANY
+            Computer Science, Computer Support Services, Computer Systems Security, Networking, Software Development, Systems Administration, Telecommunications, Web Design and Internet, Analytics & Data Science, Engineering, Information & Library Sciences, Information Technology/Systems, Product Manager, ANY
         </td>
     </tr>
     <tr>
@@ -129,17 +135,17 @@ Generic Query String Parameters
     </tr>
     <tr>
         <td>General Studies / Undecided</td>
-        <td>General Studies, Liberal Arts, Undecided, ANY</td>
+        <td>General Studies, History, Liberal Arts, Undecided, Writing, ANY</td>
     </tr>
     <tr>
         <td>Health & Medical / Nursing</td>
         <td>
-            Alternative Medicine/Healing Arts, Dental Assisting, Dental Hygienist, Diagnostic & Treatment Technician, Gerontology, Health Information Technology/Records, Healthcare Administration, Human Services/Social Work, Medical Assistant, Medical Insurance Biller/Coder, Medical Office Assistant, Medical Transcriptionist, Nursing - Licensed Practical/Vocational Nurse Training (Certificate), Nursing - MSN, Nursing - Registered Nurse (AAS), Nursing - RN to BSN, Nursing Assistant (CNA), Personal Training / Nutrition, Pharmacy Technician/Assistant, Phlebotomy / Clinical Medical Lab. Technician, Physical Therapy & Rehabilitation, Psychology, Surgical Technologist, Ultrasound Technician, Veterinary Medicine, X-Ray/Radiologic Technician, Emergency Management, Nurse Education, Nurse Practitioner (RN Required), Public Health, Speech Pathology/Therapy, ANY
+            Alternative Medicine/Healing Arts, Bachelors of Nursing (BSN), Dental Assisting, Dental Hygienist, Diagnostic & Treatment Technician, General Nursing, Gerontology, Global Health, Health Information Technology/Records, Healthcare Administration, Human Services/Social Work, Medical Assistant, Medical Insurance Biller/Coder, Medical Office Assistant, Medical Transcriptionist, Nursing - DNP, Nursing - Licensed Practical/Vocational Nurse Training (Certificate), Nursing - MSN, Nursing - Registered Nurse (AAS), Nursing - RN to BSN, Nursing Assistant (CNA), Personal Training / Nutrition, Pharmacy Technician/Assistant, Phlebotomy / Clinical Medical Lab. Technician, Physical Therapy & Rehabilitation, Psychology, Surgical Technologist, Ultrasound Technician, Veterinary Medicine, X-Ray/Radiologic Technician, Emergency Management, Nurse Education, Nurse Practitioner (RN Required), Public Health, Speech Pathology/Therapy, Entry-Level Healthcare Programs, ANY
         </td>
     </tr>
     <tr>
         <td>Legal Professions</td>
-        <td>Court Reporting, Legal Administrative Assistant, Legal Assistant/Paralegal, Legal Studies, ANY</td>
+        <td>Court Reporting, Juris Doctor, Legal Administrative Assistant, Legal Assistant/Paralegal, Legal Studies, ANY</td>
     </tr>
     <tr>
         <td>Massage Therapy & Healing Arts</td>
@@ -184,7 +190,7 @@ Generic Query String Parameters
     <tr>
         <td>Accreditations*</td>
         <td>string</td>
-        <td colspan=2>Regionally Accredited, Nationally Accredited, Cacrep Accredited, Mpcac Accredited,  AACSB Accredited, AAPC Accredited, ABA Accredited, ABET Accredited, ABHES Accredited, ACBSP Accredited, ACCET Accredited, ACCJC Accredited, ACCSC Accredited, ACEN Accredited, ACEND Accredited, ACICS Accredited, ACOTE Accredited, ACPSP Accredited, AHIMA Accredited, APA Accredited, ARC-PA, Accredited ARRT Accredited, ASHA Accredited, CAAHEP Accredited, CAHIIM Accredited, CAHME Accredited, CCNE Accredited, CEPH Accredited, COAMFTE Accredited, COE Accredited, CSWE Accredited, DEAC Accredited, HLC Accredited, IACBE Accredited, Institutionally Accredited, MSCHE Accredited, NAACLS Accredited, NASAC Accredited, NASP Accredited, NASPAA Accredited, NAVTA Accredited, NEASC Accredited, NECHE Accredited, NLNAC Accredited, NWCCU Accredited, SACSCOC Accredited, SACSOC Accredited, WSCUC Accredited</td>
+        <td colspan=2>Regionally Accredited, Nationally Accredited, Cacrep Accredited, Mpcac Accredited,  AACSB Accredited, AAPC Accredited, ABA Accredited, ABET Accredited, ABHES Accredited, ACBSP Accredited, ACCET Accredited, ACCJC Accredited, ACCSC Accredited, ACEN Accredited, ACEND Accredited, ACICS Accredited, ACOTE Accredited, ACPSP Accredited, AHIMA Accredited, APA Accredited, ARC-PA, Accredited ARRT Accredited, ASHA Accredited, CAAHEP Accredited, CAHIIM Accredited, CAHME Accredited, CCNE Accredited, CEPH Accredited, COAMFTE Accredited, COE Accredited, CSWE Accredited, DEAC Accredited, HLC Accredited, IACBE Accredited, Institutionally Accredited, MSCHE Accredited, NAACLS Accredited, NASAC Accredited, NASP Accredited, NASPAA Accredited, NAVTA Accredited, NEASC Accredited, NECHE Accredited, NLNAC Accredited, NWCCU Accredited, SACSCOC Accredited, SACSOC Accredited, WSCUC Accredited, CAEP Accredited, CACREP Adherence</td>
     </tr>
     <tr>
         <td>ProgramLength*</td>
@@ -248,6 +254,8 @@ Generic Query String Parameters
 
 * **bidModifierLog:** The log that shows  how the baseRevenue bid was modified.
 
+* **advertiserName:** The name of the advertiser - The ID of the advertiser
+
 * **campaignPhoneNumber:** `New!` A unique phone number assigned to the campaign to track and measure calls.
 
 * **callToAction:** `New!` Text displayed on a clickable button or element, encouraging users to initiate a phone call.
@@ -278,6 +286,7 @@ Example response:
          "sourceID":null,
          "extClickID":null,
          "advertiserId":"906",
+         "advertiserName": "Advertiser Name 01 - 486",
          "displayName":"Campaign 2022 09 19 13.06",
          "adCopyVersion":1,
          "headline":"",

@@ -2,7 +2,7 @@
   <a href="https://myadoptimizer.com/">
     <img src="https://myadoptimizer.com/img/logo-blk.svg" alt="Logo" height="80">
   </a>
-  <h3 align="center">MyAdOptimizer.com Client Side Integration Doc | Auto Insurance</h3>
+  <h3 align="center">MyAdOptimizer.com Client Side Integration Doc | Home Services</h3>
   <p align="center">
     Learn how to integrate the <strong>MAO Client Side</strong> by following these steps
     <br />
@@ -16,7 +16,7 @@
 
 * [Client Side](#client-side)
     * [Setup](#setup)
-    * [Specific Query String Parameters for Auto Insurance](#specific-query-string-parameters-for-auto-insurance)
+    * [Specific Query String Parameters for Personal Loans](#specific-query-string-parameters-for-home-services)
         - [LocalStorage integration](#LocalStorage-Integration)
 * [External Ad Networks Setup (OPTIONAL)](#external-ad-networks-setup-optional)
 
@@ -50,39 +50,32 @@ Generic Query String Parameters
 * CustomVar5: `Optional, tracking variable (Max length - 75)`
 
 
-<h3>Specific Query String Parameters for <strong>Auto Insurance</strong></h3>
+<h3>Specific Query String Parameters for <strong>Home Services</strong></h3>
 
-| Params Names | Data Type | Allowed Values |
-| :------------------------ | :-------: | :------------- |
-| ZipCode*                   | string    |  5 char US zip code             |
+| Params Names               | Data Type | Allowed Values |
+| :------------------------- | :-------: | :------------- |
+| ZipCode*                   | string    | 5 char US zip code              |
 | State*                     | string    | 2 char US state code (Uppercase) |
-| Accidents*                 | string    | None,1,2,3+ |
-| BusinessOwner*             | string    | Yes, No |
-| CreditScore*               | string    | Excellent, Good, Fair, Poor |
-| CurrentInsurer*            | string    | Allstate, GEICO, Farmers, Liberty Mutual, Progressive, Nationwide, State Farm, Travelers, USAA, Other |
-| Drivers*                   | string    | 1,2,3+ |
-| DUI*                       | string    | Yes, No |
-| Gender*                    | string    | Male, Female, Other |
+| ProjectServiceType*        | string    | Roofing, Gutters, Windows/Doors, Kitchen/Bathroom, Home Security, Pest Control, Lawn Care, Solar Roofing Type, Solar Power Bill |
+| ProjectTypesConcentration* | string    | <table> <tr> <td>Roofing</td> <td>Asphalt Only, Tile Only, Metal Only, Foam Only, Tar & Gravel Only, Wood Shingles Only, Slate Only</td> </tr> <tr> <td>Gutters</td> <td>Residential, Commercial</td> </tr> <tr><td>Windows/Doors</td><td>1 to 10 Windows, 1 to 10 Doors</td></tr> <tr><td>Kitchen/Bathroom</td><td>Bathroom Remodel, Walk-In Shower Only, Walk-In Tub Only, Bathtub to Shower Only, Kitchen Remodel</td></tr> <tr><td>Home Security</td><td>Security Intrusion, Fire Detection</td></tr> <tr><td>Pest Control</td><td>Bugs/Insects, Rodents, Birds/Bats, Small Animals, Termites, Ants, Bees/Wasps, Fleas, Spiders</td></tr> <tr><td>Lawn Care</td><td>Landscaping, Lawn Care, Gardening, Sod Installation, Tree Planting, Artificial Turf Installation</td></tr> <tr><td>Solar Roofing Type</td><td>Full Sun, Partially Shaded, Mostly Shaded, Not Sure</td></tr> <tr><td>Solar Power Bill</td><td>$0 - $99, $100 - $149, $150 - $199, $200 - $249, $250 - $349, $350 - $399, $400 - $449, $450 - $499, $500 - $1000+</td></tr> </table> |
+| ProjectScope*              | string    | Replace New, Repair Existing, Other |
+| ProjectTimeline*           | string    | Immediate, Within 2 weeks, Within 1 month, Unsure |
 | HomeOwner*                 | string    | Yes, No |
-| InsuredStatus*             | string    | Yes, No |
-| Married*                  | string    | Yes, No |
+| Gender*                    | string    | Male, Female, Other |
+| Married*                   | string    | Yes, No |
 | MilitaryStatus*            | string    | Yes, No |
-| SR22*                      | string    | Yes, No |
-| VehicleMake*               | string    | Acura, Audi, BMW, Buick, Cadillac, Chevrolet, Chrysler ,Dodge, Ford ,GMC, Honda, Hyundai, Infiniti, Isuzu, Jaguar, Jeep, Kia, Lexus, Mazda, Mercedes, Mercury, Nissan, Porsche, Subaru, Toyota, Volvo, Other |
-| VehicleYear               | integer   | 2024,2023,2022,2021,2020,2019,2018,2017,2016,2015,2014,2013,2012,2011,2010,2009,2008,2007, 2006,2005,2004,2003,2002,2001,2000,1999,1998,1997,1996,1995,1994,1993,1992, 1991, 1990 |
-| VehiclesToInsure          | integer   | 1,2,3 |
-| Age                        | integer  | 1 - 99 |
+| Age                        | integer   | 1 - 99 |
 | FName ±                    | string    |  |
-| LName ±                   | string    |  |
+| LName ±                    | string    |  |
 | Email ±                    | string    |  |
 | Phone ±                    | string    |  |
 | Address ±                  | string    |  |
 | City ±                     | string    |  |
-| MediaChannel                | string    | Social, Facebook, Native, Email, Display, SEM, SEO, SMS, Push, Affiliate, ChannelA, ChannelB, ChannelC, ChannelD, ChannelE |
+| MediaChannel               | string    | Social, Facebook, Native, Email, Display, SEM, SEO, SMS, Push, Affiliate, ChannelA, ChannelB, ChannelC, ChannelD, ChannelE |
 
 *Case Sensitive
 
-±PII Fields
+±PII Fields - These values are not constraints and will not be evaluated by MAO
 
 ## LocalStorage Integration
 
@@ -130,16 +123,3 @@ To integrate the following Ad Networks, MAO will need the following values.
 ```diff
 - Please provide YOUR publisher source values for each ad network below.
 ```
-Media Alpha
-* `api_token` 
-* `placement_id`
-
-Transparent.ly
-* `pubcampaignId`
-
-Clicks.NET
-* `Affcamid`
-* `Key`
-
-Quinstreet
-* `Src`

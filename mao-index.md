@@ -39,6 +39,12 @@
 - Solar
   - [Server Side](./solar/mao-solar-server-side.md)
   - [Client Side](./solar/mao-solar-client-side.md)
+- Personal Loans
+  - [Server Side](./personal-loans/mao-personal-loans-server-side.md)
+  - [Client Side](./personal-loans/mao-personal-loans-client-side.md)
+- Home Services
+  - [Server Side](./home-services/mao-home-services-server-side.md)
+  - [Client Side](./home-services/mao-home-services-client-side.md)
 
 ## Reports API's
 

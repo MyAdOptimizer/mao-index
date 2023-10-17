@@ -21,7 +21,7 @@ https://api.myadoptimizer.com/api/AdCampaignAPI?AdToken= {{ Token provided }} &C
 // without brackets ({})
 ```
 
-\*\* AdToken will be provided by your account manager.
+\*\* AdToken will be provided by your account manager. You can also grab it by going to admin.myadoptimizer.com, go to Account Info -> Collaborator Tokens.
 
 ### Method: GET
 
