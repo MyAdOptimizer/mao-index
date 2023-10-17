@@ -271,6 +271,9 @@ Generic Query String Parameters
 |15  | Click to Call is Off             | FALSE        |
 |16  | Campaign is off                  | FALSE        |
 
+> [!NOTE]
+> When the campaign is inactive, the following message is broadcast: I'm sorry, but our campaign is currently inactive. Please try again later
+
 Example response:
 
 ```JSON
@@ -606,7 +609,7 @@ Example response:
          "customVar3":"",
          "customVar4":"",
          "customVar5":"",
-         "campaignPhoneNumber": +11234567890,
+         "campaignPhoneNumber": "+11234567890",
          "callToAction": "Call Now",
          "adResultCallStatusID": 1
       }

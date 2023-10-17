@@ -153,7 +153,7 @@ Example response:
             "weight": 11.27,
             "statusId": 1,
             "trackingURL": "https://api.myadoptizer.com/api/MAOLeadTracking?AdNetworkAPIID=27&LandingPageID=24&EventID=8b448cc4-da0b-4f70-b180-c0c883282a49&IP=128.1.1.1&AdCampaignID=168",
-            "campaignPhoneNumber": +11234567890,
+            "campaignPhoneNumber": "+11234567890",
             "callToAction": "Call Now",
             "adResultCallStatusID": 1
        }

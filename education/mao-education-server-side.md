@@ -358,7 +358,7 @@ Example response:
          "statusId":1,
          "trackingURL":"https://api.myadoptimizer.com/api/MAOLeadTracking?AdNetworkAPIID=44&LandingPageID=43&EventID=acbb214a-e69e-4394-bea0-3b48f6997cca&IP=123.32.32.123&AdCampaignID=458",
          "displayUrl":"http://www.floridacareercollege.com/business-office-administration",
-        "campaignPhoneNumber": +11234567890,
+        "campaignPhoneNumber": "+11234567890",
         "callToAction": "Call Now",
         "adResultCallStatusID": 1
       }
