@@ -37,7 +37,11 @@ Generic Query String Parameters
 - **ClientIP:** This is the user's IP
 - **CurrentURL:** Optional, the URL where listings will be displayed
 - **SourceID:** Optional, tracking variable to be used at your convenience. MAO will track it and can be used for custom reporting 
-- **ExtClickID:** Optional, tracking variable to be used at your convenience. MAO will track it and can be used for custom reporting 
+
+- **ExtClickID:** Optional, tracking variable to be used at your convenience. MAO will track it and can be used for custom reporting
+> [!NOTE]
+> This tracking variables requires special integration. You need to append it to the destURL property from the results returned by API call.
+
 - **ExtSearchID:** Optional, tracking variable to be used at your convenience. MAO will track it and can be used for custom reporting 
 - **UserAgent:** Optional,  Mozilla/<version> (<system-information>) <platform> (<platform-details>) <extensions>
 - **CustomVar1:** Optional, tracking variable (Max length - 75)

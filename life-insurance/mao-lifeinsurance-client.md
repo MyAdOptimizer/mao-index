@@ -43,7 +43,11 @@ The aggregated results will be rendered once they `Thank You` page loads on the 
 Generic Query String Parameters
 
 * SourceID: `Optional, tracking variable`
-* ExtClickID: `Optional, tracking variable`
+
+* **ExtClickID:** Optional, tracking variable
+> [!NOTE]
+> This tracking variables requires special integration. You need to append it to the destURL property from the results returned by API call.
+
 * CustomVar1: `Optional, tracking variable (Max length - 75)`
 * CustomVar2: `Optional, tracking variable (Max length - 75)`
 * CustomVar3: `Optional, tracking variable (Max length - 75)`

@@ -37,7 +37,11 @@ Generic Query String Parameters
 * **ClientIP:** This is the user's IP
 * **CurrentURL:** Optional, the URL where listings will be displayed
 * **SourceID:** Optional, tracking variable
+
 * **ExtClickID:** Optional, tracking variable
+> [!NOTE]
+> This tracking variables requires special integration. You need to append it to the destURL property from the results returned by API call.
+
 * **UserAgent:** Optional,  Mozilla/<version> (<system-information>) <platform> (<platform-details>) <extensions>
 * **CustomVar1:** Optional, tracking variable (Max length - 75)
 * **CustomVar2:** Optional, tracking variable (Max length - 75)
