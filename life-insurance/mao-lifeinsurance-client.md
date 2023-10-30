@@ -16,7 +16,7 @@
 
 * [Client Side](#client-side)
     * [Setup](#setup)
-    * [Specific Query String Parameters for Home Insurance](#specific-query-string-parameters-for-home-insurance)
+    * [Specific Query String Parameters for Life Insurance](#specific-query-string-parameters-for-life-insurance)
         - [LocalStorage integration](#LocalStorage-Integration)
 * [External Ad Networks Setup (OPTIONAL)](#external-ad-networks-setup-optional)
 
@@ -54,7 +54,7 @@ Generic Query String Parameters
 * CustomVar4: `Optional, tracking variable (Max length - 75)`
 * CustomVar5: `Optional, tracking variable (Max length - 75)`
 
-<h3>Specific Query String Parameters for <strong>Home Insurance</strong></h3>
+<h3>Specific Query String Parameters for <strong>Life Insurance</strong></h3>
 
 
 | Params Names | Data Type | Allowed Values |
