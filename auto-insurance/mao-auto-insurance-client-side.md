@@ -128,6 +128,74 @@ Once you have set up all parameters values, you need to invoke the function **in
 InitMAO('target', 1);
 ```
 
+## Click to call (RenderMode 3) 
+
+* **campaignPhoneNumber:** `New!` A unique phone number assigned to the campaign to track and measure calls.
+
+* **callToAction:** `New!` Text displayed on a clickable button or element, encouraging users to initiate a phone call.
+
+* **AdResultCallStatusID:** `New!` An ID representing the campaign's call status, where:
+
+| ID | Status                           | Allows calls |
+| :--| :------------------------------- | :------------|
+|1   | Click To Call is Active          | TRUE         |  
+|8   | Campaign is out of schedule      | FALSE        |
+|13  | Click to Call Monthly Cap Reached| FALSE        |
+|14  | Click to Call Daily Cap reached  | FALSE        |
+|15  | Click to Call is Off             | FALSE        |
+|16  | Campaign is off                  | FALSE        |
+
+> [!NOTE]
+> When the campaign is inactive, the following message is broadcast: I'm sorry, but our campaign is currently inactive. Please try again later
+
+### Example Response
+
+```JSON
+{
+    "advertiserId": "100",
+    "AdvertiserName": "Advertiser Name 01 - 100",
+    "AdNetworkAPIID": 76,
+    "Title": "Fixed Mortgage Rates from 5.7 rate 6.1 Apr",
+    "AdCopyVersion": 1,
+    "Description": "FHA, VA, 30 Year Fixed, 15 Year Fixed <br /> Cash Out and Home Equity Options <br /> View Rates & Payments <br /> Calculate Home Equity Payments",
+    "CPC": 15.75,
+    "BaseCPC": 15,
+    "Logo": "https://cdn.myadoptimizer.com/maojsfiles/images/LogoAdvertiser_000000_00000000-0000-0000-0000-000000000000.jpg",
+    "BrandName": "Advertiser Name 01",
+    "NetworkSort": 1,
+    "NetworkAdID": "1284",
+    "DisplayUrl": "Advertiser Name 01.com/MortgageRates",
+    "PayLoad": "",
+    "Weight": 15.75,
+    "CB": "XXXXXXXXXXXXXXXXXXXXXXX",
+    "M": "XXXXXXXXXXXXXXXXXXXXXXX",
+    "BidModifierPercentange": 5,
+    "BidFloor": 0,
+    "RequestDuration": 539,
+    "AdResultLogStatusId": 1,
+    "AdNetworkName": "MAO Open Exchange",
+    "SourceID": "",
+    "ExtClickId": "",
+    "ExtSearchID": "",
+    "LandingPageURL": "ThankYouDemo.html",
+    "bidModDescription": [
+        "Consumer Credit: Excellent - Value: 5%"
+    ],
+    "CustomVar1": "",
+    "CustomVar2": "",
+    "CustomVar3": "",
+    "CustomVar4": "",
+    "CustomVar5": "",
+    "DailyFilledRate": 0,
+    "CampaignDailyCap": 1500,
+    "CampaignPhoneNumber": "",
+    "CallToAction": "Call Now",
+    "AdResultCallStatusID": 0,
+    "DestinationURL": "https://maofunctionstest.azurewebsites.net/api/MAOHttpRedirect?src=https%3A%2F%2Fwww.Advertiser Name 01.com%2Fmortgagerates%3Futm_source%3Ddirectbidder1284&LandingPageID=10&EventID=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX&AdNetworkAPIID=76&cpc=15.75&Brand=Advertiser Name 01&Title=Fixed Mortgage Rates from 5.7 rate 6.1 Apr&CB=XXXXXXXXXXXXXXXXXXXXXXX&M=XXXXXXXXXXXXXXXXXXXXXXX&Weight=15.75&BidModifiers=5&NetworkAdID=1284&SourceID=&LandingPageURL=ThankYouDemo.html&AdId=100&AdCopyVersion=1&CustomVar1=&CustomVar2=&CustomVar3=&CustomVar4=&CustomVar5=",
+    "findIndex": 0
+}
+```
+
 ## External Ad Networks Setup OPTIONAL
 
 To integrate the following Ad Networks, MAO will need the following values.
