@@ -33,7 +33,7 @@ https://api.myadoptimizer.com/api/AdRptAPI?UserToken= {{ User token provided }} 
 | :----------- | :-------- | :--------------------------------------------------------------------------------------------------------------------------------- |
 | UserToken\*  | String    | XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX                                                                                               |
 | dcReport\*   | Boolean   | true                                                                                                                               |
-| VerticalID\* | Integer   | - 1 / Refinace <br> - 2 / Purchase <br> - 8 / Auto Insurance <br> - 13 / Medicare <br> - 14 / Home Insurance <br> - 15 / Solar <br> - 16 / Personal Loans <br> - 17 / Home Services <br> |
+| VerticalID\* | Integer   | - 1 / Refinace <br> - 2 / Purchase <br> - 8 / Auto Insurance <br> - 9 / Life Insurance <br> - 13 / Medicare <br> - 14 / Home Insurance <br> - 15 / Solar <br> - 16 / Personal Loans <br> - 17 / Home Services <br> |
 | StartDate\*  | Date      | yyyy-MM-dd                                                                                                                         |
 | EndDate\*    | Date      | yyyy-MM-dd | 
 | Clicks       | INT       | 1 (Clicks Only) 0 (Clicks & Impressions) |
