@@ -329,9 +329,11 @@ InitMAO('target', 1);
 
 ## Click to call (RenderMode 3) 
 
-* **campaignPhoneNumber:** `New!` A unique phone number assigned to the campaign to track and measure calls.
+### Callback properties
 
-* **callToAction:** `New!` Text displayed on a clickable button or element, encouraging users to initiate a phone call.
+* **CampaignPhoneNumber:** `New!` A unique phone number assigned to the campaign to track and measure calls.
+
+* **CallToAction:** `New!` Text displayed on a clickable button or element, encouraging users to initiate a phone call.
 
 * **AdResultCallStatusID:** `New!` An ID representing the campaign's call status, where:
 
@@ -347,7 +349,7 @@ InitMAO('target', 1);
 > [!NOTE]
 > When the campaign is inactive, the following message is broadcast: I'm sorry, but our campaign is currently inactive. Please try again later
 
-### Example Response
+### Example Callback
 
 ```JSON
 {
@@ -387,9 +389,9 @@ InitMAO('target', 1);
     "CustomVar5": "",
     "DailyFilledRate": 0,
     "CampaignDailyCap": 1500,
-    "CampaignPhoneNumber": "",
+    "CampaignPhoneNumber": "+11234567890",
     "CallToAction": "Call Now",
-    "AdResultCallStatusID": 0,
+    "AdResultCallStatusID": 1,
     "DestinationURL": "https://maofunctionstest.azurewebsites.net/api/MAOHttpRedirect?src=https%3A%2F%2Fwww.Advertiser Name 01.com%2Fmortgagerates%3Futm_source%3Ddirectbidder1284&LandingPageID=10&EventID=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX&AdNetworkAPIID=76&cpc=15.75&Brand=Advertiser Name 01&Title=Fixed Mortgage Rates from 5.7 rate 6.1 Apr&CB=XXXXXXXXXXXXXXXXXXXXXXX&M=XXXXXXXXXXXXXXXXXXXXXXX&Weight=15.75&BidModifiers=5&NetworkAdID=1284&SourceID=&LandingPageURL=ThankYouDemo.html&AdId=100&AdCopyVersion=1&CustomVar1=&CustomVar2=&CustomVar3=&CustomVar4=&CustomVar5=",
     "findIndex": 0
 }
