@@ -196,7 +196,7 @@ Generic Query String Parameters
     <tr>
         <td>LearningPreference*</td>
         <td>string</td>
-        <td colspan=2>CAMPUS, ONLINE, BOTH</td>
+        <td colspan=2>CAMPUS, ONLINE, HYBRID, ANY</td>
     </tr>
     <tr>
         <td>LikelihoodToEnroll*</td>
