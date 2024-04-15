@@ -23,6 +23,8 @@ https://api.myadoptimizer.com/api/AdRptAPI?UserToken= {{ User token provided }} 
 
 **You can find your user token in  <b> Account info </b>*
 
+![Item](https://github.com/MyAdOptimizer/mao-index/assets/86742967/dbdaefed-dc03-4311-8106-ae30c9dbbe13)
+
 <br>
 
 ### Method: GET
@@ -60,7 +62,7 @@ Refinance | Purchase | Auto Insurance | Medicate | Home Insurance example result
         "timeStamp": "2021-07-01T23:59:10.89",
         "cpc": 9.2000,
         "sourceID": "Source ID",
-        "landingPageID": 00,
+        "landingPageID": 0,
         "adConstraints": [
             {
                 "adConstraintName": "CashOut",
@@ -70,7 +72,15 @@ Refinance | Purchase | Auto Insurance | Medicate | Home Insurance example result
         ],
         "campaignBid": 10.0,
         "baseCPC": 9.2000,
-        "baseCampaignBid": 10.0000
+        "baseCampaignBid": 10.0000,
+        "brandName": "Brand Name",
+        "extClickID": "00000000-0000-0000-0000-000000000000",
+        "adCopyVersion": 1,
+        "customVar1": "CustomVar1",
+        "customVar2": "",
+        "customVar3": "",
+        "customVar4": "",
+        "customVar5": ""
     },
 ]
 ```
