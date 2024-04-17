@@ -63,7 +63,7 @@ Generic Query String Parameters
 | Bathrooms                 | string | 1, 2, 3, 4, 5+ |
 | Bedrooms                  | string | 1, 2, 3, 4, 5+ |
 | CreditScore*               | string | Excellent, Good, Fair, Poor |
-| CurrentInsurer*            | string | Allstate, Farmers, Nationwide, State Farm, USAA, American Family, Liberty Mutual, Travlers, Progressive, Travlers, Other |
+| CurrentInsurer*            | string | Allstate, Farmers, Nationwide, State Farm, USAA, American Family, Liberty Mutual, Travelers, Progressive, Other |
 | CurrentlyInsured*          | string | Yes, No |
 | Gender*                    | string | Male, Female |
 | HomeOwner*                 | string | Yes, No |
