@@ -84,3 +84,46 @@ Refinance | Purchase | Auto Insurance | Medicate | Home Insurance example result
     },
 ]
 ```
+Personal Loans
+```JSON
+[
+    {
+        "timeStamp": "2024-05-01T23:49:49.707",
+        "landingPage": "Landing page name",
+        "sourceID": "Source ID",
+        "adNetwork": "AdNetwork Name",
+        "advertiserID": 123,
+        "advertiserName": "Advertiser Name",
+        "campaignID": 123,
+        "campaignName": "Campaign Name",
+        "adConstraints": [
+            {
+                "adConstraintName": "Age",
+                "value": ""
+            },
+            {
+                "adConstraintName": "BorrowAmount",
+                "value": ""
+            },
+        ],
+        "position": 1,
+        "impressions": 1,
+        "clicks": 1,
+        "cpc": 1.0000,
+        "campaignBid": 1.0000,
+        "leads": 0,
+        "extClickID": "",
+        "baseCPC": 0.0,
+        "baseCampaignBid": 1.0000,
+        "brandName": "Brand name",
+        "adCopyVersion": 1,
+        "customVar1": "",
+        "customVar2": "",
+        "customVar3": "",
+        "customVar4": "",
+        "customVar5": "",
+        "advertiserTag": ""
+    },
+]
+```
+
