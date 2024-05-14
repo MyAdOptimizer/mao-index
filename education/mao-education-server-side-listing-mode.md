@@ -248,7 +248,7 @@ Generic Query String Parameters
 
 * **destURL:** This is the Click URL. Please use the value from this field when a click is triggered.
 
-* **impressionUrl:** This is a call back URL so that MAO can track live impressions. If a listing is displayed in your result set, please trigger the impressionUrl of  that listing.
+* **impressionUrl:** In the event that you are not planning to render all listings returned by this API you need to use this trigger. This is a call back URL to track live impressions. If a listing is displayed in your result set, please trigger the impressionUrl of that listing.
 
 * **trackingURL:** This is a Image Pixel to track leads or form submits from Clicks. This is optional to implement, but it is used to provide traceability from a click to a lead submit.
 
