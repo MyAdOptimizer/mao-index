@@ -72,6 +72,8 @@ Generic Query String Parameters
 | EmploymentStatus*    | string |  Employed, Self-Employed, Retired, Not Employed       |
 | PropertyUse*     | string  | Primary Home, Second Home, Rental Property |
 | PropertyType*     | string  | Single Family, Multi-Unit, Condo/Townhome, Mobile, Other   |
+| HomeListed*       | string  | Yes, No |
+| SellTimeFrame*    | string  | Now, 3_Months, 6_Months, 1_Year, Unknown |
 | FName ±                    | string    |  |
 | LName ±                    | string    |  |
 | Email ±                    | string    |  |
