@@ -33,7 +33,7 @@ Response Format: JSON
 Generic Query String Parameters
 
 * **LandingPageToken:** This Token will be provided by your account manager
-* **Device:** Desktop o Mobile. Some 3rd Party AdNetworks or Private Exchange Campaigns might require this value to be provided when using Server Side integration
+* **Device:** Desktop or Mobile. Some 3rd Party AdNetworks or Private Exchange Campaigns might require this value to be provided when using Server Side integration
 * **ClientIP:** This is the user's IP
 * **CurrentURL:** Optional, the URL where listings will be displayed
 * **SourceID:** Optional, tracking variable to be used at your convenience. MAO will track it and can be used for custom reporting 
